@@ -85,13 +85,22 @@
                         <?php 
                         $indexContentCheckedFullPage = "";
                         $indexContentCheckedNormalPage = "";
+                        $indexContentCheckedMinimalPage = "";
+                        
                         if ( $config->indexContent() == 1 ) {
                             $indexContentCheckedFullPage = "checked";
-                            $indexContentCheckedNormalPage = "";    
+                            $indexContentCheckedNormalPage = "";
+                            $indexContentCheckedMinimalPage = "";    
+                        }
+                        else if ( $config->indexContent() == 2 ) {
+                            $indexContentCheckedFullPage = "";
+                            $indexContentCheckedNormalPage = "";
+                            $indexContentCheckedMinimalPage = "checked";
                         }
                         else {
                             $indexContentCheckedFullPage = "";
                             $indexContentCheckedNormalPage = "checked";
+                            $indexContentCheckedMinimalPage = "";
                         }
                         ?>
                         <h3>Page d'accueil</h3>
@@ -104,7 +113,11 @@
                                     </li>
                                     <li>
                                         <input tabindex="12" type="radio" id="square-radio-2" name="indexContent" value="0" <?= $indexContentCheckedNormalPage ?> >
-                                        <label for="square-radio-2">Page d'accueil simple</label>
+                                        <label for="square-radio-2">Page d'accueil Complete</label>
+                                    </li>
+                                     <li>
+                                        <input tabindex="13" type="radio" id="square-radio-3" name="indexContent" value="2" <?= $indexContentCheckedMinimalPage ?> >
+                                        <label for="square-radio-3">Page d'accueil Minimal</label>
                                     </li>
                                 </ul>
                                 <div style="clear:both;"></div>

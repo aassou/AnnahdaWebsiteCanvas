@@ -8,8 +8,8 @@
             <!-- Logo
             ============================================= -->
             <div id="logo">
-                <a href="http://goo.gl/eLJ2Bg" class="standard-logo" data-dark-logo="images/logo-annahda.png"><img src="images/logo-annahda.png" alt="Canvas Logo"></a>
-                <a href="http://goo.gl/eLJ2Bg" class="retina-logo" data-dark-logo="images/logo-dark@2x.png"><img src="images/logo@2x.png" alt="Canvas Logo"></a>
+                <a href="http://goo.gl/eLJ2Bg" class="standard-logo" data-dark-logo="images/logo-annahda.png"><img src="images/logo-annahda.png" alt="Groupe Annahda"></a>
+                <a href="http://goo.gl/eLJ2Bg" class="retina-logo" data-dark-logo="images/logo-annahda.png"><img src="images/logo-annahda.png" alt="Groupe Annahda"></a>
             </div><!-- #logo end -->
             <!-- Primary Navigation
             ============================================= -->
