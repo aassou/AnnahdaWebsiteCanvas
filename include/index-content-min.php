@@ -69,32 +69,5 @@
                 Voire tous les projets du Groupe Annahda. <strong>Cliquez ici</strong> <i class="icon-caret-right" style="top:4px;"></i>
             </div>
         </a>
-        <div class="section parallax dark nobottommargin" style="background-image: url('http://hholdinggroup.com/wp-content/uploads/2013/03/hholdinggroup2.jpg'); padding: 100px 0;" data-stellar-background-ratio="0.4">
-            <div class="heading-block center">
-                <h3>Société Iaaza de construction</h3>
-            </div>
-            <div class="fslider testimonial testimonial-full" data-animation="fade" data-arrows="false">
-                <div class="flexslider">
-                    <div class="slider-wrap">
-                        <div class="slide">
-                            <!--div class="testi-image">
-                                <a href="#"><img src="images/testimonials/3.jpg" alt="Customer Testimonails"></a>
-                            </div-->
-                            <div class="testi-content">
-                                <p>
-                                    La dite société est fondée à la ville de Nador en 2014 par le Groupe
-                                    Annahda Lil Iaamar, en vue d ́attaquer le grand marché
-                                    de la construction au niveau National en respectant toujours
-                                    le rapport Qualité/Prix.<br/><br/>
-                                    De ce fait, nous vous invitons de faire confiance a notre honorable
-                                    Établissement pour bien Construire votre avenir.
-                                    En l ́occurrence: Le résultat, approuve la promesse !        
-                                </p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
     </div>
 </section>
