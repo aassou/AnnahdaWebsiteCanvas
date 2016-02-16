@@ -9,12 +9,7 @@
                     </div>
                 </div>
                 <div class="video-wrap">
-                    <video poster="images/videos/explore-poster.jpg" preload="auto" loop autoplay muted>
-                        <source src='<?= $sliderVideos[0]->url() ?>' type='video/mp4' />
-                        <!--source src='images/videos/explore.mp4' type='video/mp4' /-->
-                        <!--source src='images/videos/explore.webm' type='video/webm' /-->
-                    </video>
-                    <div class="video-overlay" style="background-color: rgba(0,0,0,0.55);"></div>
+                    <iframe width="560" height="315" src="<?= $sliderVideos[0]->url() ?>" frameborder="0" allowfullscreen></iframe>
                 </div>
             </div>
         </div>
