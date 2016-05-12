@@ -206,7 +206,7 @@
                 Voire tous les projets du Groupe Annahda. <strong>Cliquez ici</strong> <i class="icon-caret-right" style="top:4px;"></i>
             </div>
         </a>
-        <div class="section parallax dark nobottommargin" style="background-image: url('http://hholdinggroup.com/wp-content/uploads/2013/03/hholdinggroup2.jpg'); padding: 100px 0;" data-stellar-background-ratio="0.4">
+        <div class="section parallax dark nobottommargin" style="background-image: url('images/holdinggroup2.jpg'); padding: 100px 0;" data-stellar-background-ratio="0.4">
 
             <div class="heading-block center">
                 <h3>Société Iaaza de construction</h3>
