@@ -12,13 +12,15 @@ class ProjetManager{
 	//BAISC CRUD OPERATIONS
 	public function add(Projet $projet){
     	$query = $this->_db->prepare(
-    	'INSERT INTO t_projet (name, description, adresse, dateCreation, created, createdBy)
-		VALUES (:name, :description, :adresse, :dateCreation, :created, :createdBy)')
+    	'INSERT INTO t_projet (name, description, adresse, dateCreation, avancementConstrucion, avancementFinition, created, createdBy)
+		VALUES (:name, :description, :adresse, :dateCreation, :avancementConstrucion, :avancementFinition, :created, :createdBy)')
 		or die (print_r($this->_db->errorInfo()));
 		$query->bindValue(':name', $projet->name());
 		$query->bindValue(':description', $projet->description());
 		$query->bindValue(':adresse', $projet->adresse());
 		$query->bindValue(':dateCreation', $projet->dateCreation());
+        $query->bindValue(':avancementConstrucion', $projet->avancementConstrucion());
+        $query->bindValue(':avancementFinition', $projet->avancementFinition());
 		$query->bindValue(':created', $projet->created());
 		$query->bindValue(':createdBy', $projet->createdBy());
 		$query->execute();
@@ -29,7 +31,8 @@ class ProjetManager{
     	$query = $this->_db->prepare(
     	'UPDATE t_projet SET 
 		name=:name, description=:description, adresse=:adresse, 
-		dateCreation=:dateCreation, updated=:updated, updatedBy=:updatedBy
+		dateCreation=:dateCreation, avancementConstrucion=:avancementConstrucion,
+		avancementFinition=:avancementFinition, updated=:updated, updatedBy=:updatedBy
 		WHERE id=:id')
 		or die (print_r($this->_db->errorInfo()));
 		$query->bindValue(':id', $projet->id());
@@ -37,11 +40,25 @@ class ProjetManager{
 		$query->bindValue(':description', $projet->description());
 		$query->bindValue(':adresse', $projet->adresse());
 		$query->bindValue(':dateCreation', $projet->dateCreation());
+        $query->bindValue(':avancementConstrucion', $projet->avancementConstrucion());
+        $query->bindValue(':avancementFinition', $projet->avancementFinition());
 		$query->bindValue(':updated', $projet->updated());
 		$query->bindValue(':updatedBy', $projet->updatedBy());
 		$query->execute();
 		$query->closeCursor();
 	}
+    
+    public function updateAvancementProjet($idProjet, $avancementConstrucion, $avancementFinition){
+        $query = $this->_db->prepare(
+        'UPDATE t_projet SET avancementConstrucion=:avancementConstrucion,
+        avancementFinition=:avancementFinition WHERE id=:id')
+        or die (print_r($this->_db->errorInfo()));
+        $query->bindValue(':id', $idProjet);
+        $query->bindValue(':avancementConstrucion', $avancementConstrucion);
+        $query->bindValue(':avancementFinition', $avancementFinition);
+        $query->execute();
+        $query->closeCursor();
+    }
 
 	public function delete($id){
     	$query = $this->_db->prepare(' DELETE FROM t_projet

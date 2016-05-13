@@ -31,6 +31,8 @@
 			$description = htmlentities($_POST['description']);
 			$adresse = htmlentities($_POST['adresse']);
 			$dateCreation = htmlentities($_POST['dateCreation']);
+            $avancementConstruction = htmlentities($_POST['avancementConstruction']);
+            $avancementFinition = htmlentities($_POST['avancementFinition']);
 			$createdBy = $_SESSION['userAnnahdaSite']->login();
             $created = date('Y-m-d h:i:s');
             //create object
@@ -39,6 +41,8 @@
 				'description' => $description,
 				'adresse' => $adresse,
 				'dateCreation' => $dateCreation,
+				'avancementConstruction' => $avancementConstruction,
+				'avancementFinition' => $avancementFinition,
 				'created' => $created,
             	'createdBy' => $createdBy
 			));
@@ -61,6 +65,8 @@
 			$description = htmlentities($_POST['description']);
 			$adresse = htmlentities($_POST['adresse']);
 			$dateCreation = htmlentities($_POST['dateCreation']);
+            $avancementConstruction = htmlentities($_POST['avancementConstruction']);
+            $avancementFinition = htmlentities($_POST['avancementFinition']);
 			$updatedBy = $_SESSION['userAnnahdaSite']->login();
             $updated = date('Y-m-d h:i:s');
             $projet = new Projet(array(
@@ -69,6 +75,8 @@
 				'description' => $description,
 				'adresse' => $adresse,
 				'dateCreation' => $dateCreation,
+				'avancementConstruction' => $avancementConstruction,
+                'avancementFinition' => $avancementFinition,
 				'updated' => $updated,
             	'updatedBy' => $updatedBy
 			));
@@ -82,6 +90,22 @@
         }
     }
     //Action Update Processing End
+    //Action UpdateAvancement Processing Begin
+    else if($action == "update"){
+        $idProjet = htmlentities($_POST['idProjet']);
+        if( !empty($_POST['avancementConstruction']) and !empty($_POST['avancementFinition']) ){
+            $avancementConstruction = htmlentities($_POST['avancementConstruction']);
+            $avancementFinition = htmlentities($_POST['avancementFinition']);
+            $projetManager->updateAvancementProjet($idProjet, $avancementConstruction, $avancementFinition);
+            $actionMessage = "<strong>Opération Valide</strong> : Avancement Projet Modifié(e) avec succès.";
+            $typeMessage = "success";
+        }
+        else{
+            $actionMessage = "<strong>Erreur Modification Avancement Projet</strong> : Vous devez remplir les champs 'Avancement Construction' et 'Avancement Finition'.";
+            $typeMessage = "danger";
+        }
+    }
+    //Action UpdateAvancement Processing End
     //Action Delete Processing Begin
     else if($action == "delete"){
         $idProjet = htmlentities($_POST['idProjet']);

@@ -60,7 +60,7 @@ body {
 
 a {
 	text-decoration: none !important;
-	color: #1ABC9C;
+	color: #bf883b;
 }
 
 a:hover { color: #222; }
@@ -1041,7 +1041,7 @@ body.stretched #header.full-header .container {
 }
 
 #primary-menu > ul > li:hover a,
-#primary-menu > ul > li.current a { color: #1ABC9C; }
+#primary-menu > ul > li.current a { color: #bf883b; }
 
 #primary-menu > ul > li.sub-menu > a > div { }
 
@@ -2005,7 +2005,7 @@ body.top-search-open #side-panel-trigger { opacity: 0; }
 	text-shadow: 1px 1px 1px rgba(0,0,0,0.1);
 }
 
-#page-menu-wrap { background-color: #1ABC9C; }
+#page-menu-wrap { background-color: #444; }
 
 #page-menu.sticky-page-menu #page-menu-wrap {
 	position: fixed;
@@ -2029,7 +2029,7 @@ body.top-search-open #side-panel-trigger { opacity: 0; }
 
 #page-menu .menu-title {
 	float: left;
-	color: #FFF;
+	color: #bf883b;
 	font-size: 20px;
 	font-weight: 300;
 }
@@ -3389,7 +3389,7 @@ body:not(.device-touch):not(.device-xs):not(.device-xxs) .portfolio-notitle .por
 
 .portfolio-desc h3 a { color: #222; }
 
-.portfolio-desc h3 a:hover { color: #1ABC9C; }
+.portfolio-desc h3 a:hover { color: #bf883b; }
 
 .portfolio-desc span {
 	display: block;
@@ -4446,7 +4446,7 @@ body:not(.device-touch):not(.device-xs):not(.device-xxs) .portfolio-overlay a {
 .iportfolio:hover a.center-icon { opacity: 1; }
 
 .portfolio-overlay a:hover {
-	color: #1ABC9C;
+	color: #bf883b;
 	background-color: #EEE;
 }
 
@@ -9722,7 +9722,7 @@ body:not(.device-touch) .rounded-skill {
 	left: 0;
 	width: 0;
 	height: 100%;
-	background-color: #1ABC9C;
+	background-color: #bf883b;
 	overflow: visible !important;
 	border-radius: 2px;
 	-webkit-transition: width 1.2s ease-in-out;
@@ -10051,7 +10051,7 @@ body:not(.device-touch) .rounded-skill {
 }
 
 .owl-theme .owl-controls .owl-nav [class*=owl-]:hover {
-	background-color: #1ABC9C !important;
+	background-color: #bf883b !important;
 	color: #FFF !important;
 	text-decoration: none;
 }
@@ -10630,7 +10630,7 @@ label.error { display: none !important; }
 	display: block;
 	background: transparent;
 	padding: 0 0 10px;
-	border-bottom: 2px solid #1ABC9C;
+	border-bottom: 2px solid #bf883b;
 }
 
 
@@ -10958,7 +10958,7 @@ body:not(.device-touch) #gotoTop {
 
 .stretched #gotoTop { bottom: 30px; }
 
-#gotoTop:hover { background-color: #1ABC9C; }
+#gotoTop:hover { background-color: #bf883b; }
 
 
 /* ----------------------------------------------------------------
@@ -11991,4 +11991,8 @@ body:not(.no-transition) #wrapper,
 .x400300 {
 	width: 400px;
 	height: 300px; 	
+}
+
+.btn-gold{
+	background: #bf883b;
 }

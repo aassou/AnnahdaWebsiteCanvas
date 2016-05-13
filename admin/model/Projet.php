@@ -7,6 +7,8 @@ class Projet{
 	private $_description;
 	private $_adresse;
 	private $_dateCreation;
+    private $_avancementConstrucion;
+    private $_avancementFinition;
 	private $_created;
 	private $_createdBy;
 	private $_updated;
@@ -47,6 +49,14 @@ class Projet{
 	public function setDateCreation($dateCreation){
 		$this->_dateCreation = $dateCreation;
    	}
+    
+    public function setAvancementConstrucion($avancementConstruction){
+        $this->_avancementConstrucion = $avancementConstruction;
+    }
+    
+    public function setAvancementFinition($avancementFinition){
+        $this->_avancementFinition = $avancementFinition;
+    }
 
 	public function setCreated($created){
         $this->_created = $created;
@@ -83,6 +93,14 @@ class Projet{
 	public function dateCreation(){
 		return $this->_dateCreation;
    	}
+    
+    public function avancementConstrucion(){
+        return $this->_avancementConstrucion;
+    }
+    
+    public function avancementFinition(){
+        return $this->_avancementFinition;
+    }
 
 	public function created(){
         return $this->_created;

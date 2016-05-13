@@ -31,7 +31,7 @@
                             <span class="input-group-addon"><i class="icon-email2"></i></span>
                             <input type="email" id="widget-subscribe-form-email" name="widget-subscribe-form-email" class="form-control required email" placeholder="Votre Email">
                             <span class="input-group-btn">
-                                <button class="btn btn-success" type="submit">Envoyer</button>
+                                <button class="btn btn-gold" type="submit">Envoyer</button>
                             </span>
                         </div>
                     </form>
