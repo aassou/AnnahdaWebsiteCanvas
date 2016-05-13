@@ -16,16 +16,16 @@
             <nav id="primary-menu" class="dark">
                 <ul>
                     <li <?= ($currentPage == "index.php") ? 'class="current"' : '' ?> >
-                        <a href="http://localhost/AnnahdaCanvasGit/index.php" title="Français"><img src="../images/icons/flags/french.png" /></a>
+                        <a href="http://costetics.esy.es/index.php" title="Français"><img src="../images/icons/flags/french.png" /></a>
                     </li>
                     <li <?= ($currentPage == "index.php") ? 'class="current"' : '' ?> >
-                        <a href="http://localhost/AnnahdaCanvasGit/de/index.php" title="Deutsch"><img src="../images/icons/flags/german.png" /></a>
+                        <a href="http://costetics.esy.es/de/index.php" title="Deutsch"><img src="../images/icons/flags/german.png" /></a>
                     </li>
                     <li <?= ($currentPage == "index.php") ? 'class="current"' : '' ?> >
-                        <a href="http://localhost/AnnahdaCanvasGit/nl/index.php" title="Nederlands"><img src="../images/icons/flags/netherlands.png" /></a>
+                        <a href="http://costetics.esy.es/nl/index.php" title="Nederlands"><img src="../images/icons/flags/netherlands.png" /></a>
                     </li>
                     <li <?= ($currentPage == "index.php") ? 'class="current"' : '' ?> >
-                        <a href="http://localhost/AnnahdaCanvasGit/es/index.php" title="Español"><img src="../images/icons/flags/spain.png" /></a>
+                        <a href="http://costetics.esy.es/es/index.php" title="Español"><img src="../images/icons/flags/spain.png" /></a>
                     </li>
                     <li <?= ($currentPage == "index.php") ? 'class="current"' : '' ?> >
                         <a href="index.php"><div>Inicio</div></a>
