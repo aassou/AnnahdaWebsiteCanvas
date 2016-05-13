@@ -1,20 +1,32 @@
 <?php
     $currentPage = basename($_SERVER['PHP_SELF']);
 ?>
-<header id="header" class="transparent-header full-header" data-sticky-class="not-dark">
+<header id="header" class="full-header" data-sticky-class="not-dark">
     <div id="header-wrap">
         <div class="container clearfix">
             <div id="primary-menu-trigger"><i class="icon-reorder"></i></div>
             <!-- Logo
             ============================================= -->
             <div id="logo">
-                <a href="index.php" class="standard-logo" data-dark-logo="images/logo-little.png"><img src="images/logo-little.png" alt="Groupe Annahda"></a>
-                <a href="index.php" class="retina-logo" data-dark-logo="images/logo-little.png"><img src="images/logo-little.png" alt="Groupe Annahda"></a>
+                <a href="index.php" class="standard-logo" data-dark-logo="images/logo-little.png"><img src="../images/logo-little.png" alt="Groupe Annahda"></a>
+                <a href="index.php" class="retina-logo" data-dark-logo="images/logo-little.png"><img src="../images/logo-little.png" alt="Groupe Annahda"></a>
             </div><!-- #logo end -->
             <!-- Primary Navigation
             ============================================= -->
             <nav id="primary-menu" class="dark">
                 <ul>
+                    <li <?= ($currentPage == "index.php") ? 'class="current"' : '' ?> >
+                        <a href="http://localhost/AnnahdaCanvasGit/index.php" title="Français"><img src="../images/icons/flags/french.png" /></a>
+                    </li>
+                    <li <?= ($currentPage == "index.php") ? 'class="current"' : '' ?> >
+                        <a href="http://localhost/AnnahdaCanvasGit/de/index.php" title="Deutsch"><img src="../images/icons/flags/german.png" /></a>
+                    </li>
+                    <li <?= ($currentPage == "index.php") ? 'class="current"' : '' ?> >
+                        <a href="http://localhost/AnnahdaCanvasGit/nl/index.php" title="Nederlands"><img src="../images/icons/flags/netherlands.png" /></a>
+                    </li>
+                    <li <?= ($currentPage == "index.php") ? 'class="current"' : '' ?> >
+                        <a href="http://localhost/AnnahdaCanvasGit/es/index.php" title="Español"><img src="../images/icons/flags/spain.png" /></a>
+                    </li>
                     <li <?= ($currentPage == "index.php") ? 'class="current"' : '' ?> >
                         <a href="index.php"><div>Startseite</div></a>
                     </li>

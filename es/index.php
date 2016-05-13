@@ -53,7 +53,7 @@
 
     <!-- Document Title
     ============================================= -->
-    <title>Gruppe Annahda</title>
+    <title>Grupo Annahda</title>
 
 </head>
 
