@@ -91,7 +91,7 @@
     }
     //Action Update Processing End
     //Action UpdateAvancement Processing Begin
-    else if($action == "update"){
+    else if($action == "updateAvancement"){
         $idProjet = htmlentities($_POST['idProjet']);
         if( !empty($_POST['avancementConstruction']) and !empty($_POST['avancementFinition']) ){
             $avancementConstruction = htmlentities($_POST['avancementConstruction']);

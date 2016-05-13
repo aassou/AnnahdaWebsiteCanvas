@@ -126,16 +126,16 @@
                         <!-- Portfolio Single - Description End -->
 
                         <ul class="skills">
-                            <li data-percent="80">
+                            <li data-percent="<?= $projet->avancementConstruction() ?>">
                                 <span>Gros Oeuvre</span>
                                 <div class="progress">
-                                    <div class="progress-percent"><div class="counter counter-inherit counter-instant"><span data-from="0" data-to="80" data-refresh-interval="30" data-speed="1000"></span>%</div></div>
+                                    <div class="progress-percent"><div class="counter counter-inherit counter-instant"><span data-from="0" data-to="<?= $projet->avancementConstruction() ?>" data-refresh-interval="30" data-speed="1000"></span>%</div></div>
                                 </div>
                             </li>
-                            <li data-percent="40">
+                            <li data-percent="<?= $projet->avancementFinition() ?>">
                                 <span>Finition</span>
                                 <div class="progress">
-                                    <div class="progress-percent"><div class="counter counter-inherit counter-instant"><span data-from="0" data-to="40" data-refresh-interval="30" data-speed="1000"></span>%</div></div>
+                                    <div class="progress-percent"><div class="counter counter-inherit counter-instant"><span data-from="0" data-to="<?= $projet->avancementFinition() ?>" data-refresh-interval="30" data-speed="1000"></span>%</div></div>
                                 </div>
                             </li>
                             <!--li data-percent="90">

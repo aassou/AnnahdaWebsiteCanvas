@@ -118,6 +118,14 @@
                                     <label for="message-text" class="control-label">Description</label>
                                     <textarea class="form-control" name="description" id="message-text"></textarea>
                                   </div>
+                                  <div class="form-group">
+                                    <label for="recipient-name" class="control-label">Avancement Construction</label>
+                                    <input type="text" class="form-control" id="avancementConstruction" name="avancementConstruction">
+                                  </div>
+                                  <div class="form-group">
+                                    <label for="recipient-name" class="control-label">Avancement Finition</label>
+                                    <input type="text" class="form-control" id="avancementFinition" name="avancementFinition">
+                                  </div>
                               </div>
                               <div class="modal-footer">
                                 <input type="hidden" name="action" value="add">
@@ -186,6 +194,14 @@
                               <div class="form-group">
                                 <label for="message-text" class="control-label">Description</label>
                                 <textarea class="form-control" name="description" id="message-text"><?= $projet->description() ?></textarea>
+                              </div>
+                              <div class="form-group">
+                                <label for="recipient-name" class="control-label">Avancement Construction</label>
+                                <input type="text" class="form-control" id="avancementConstruction" name="avancementConstruction" value="<?= $projet->avancementConstruction() ?>">
+                              </div>
+                              <div class="form-group">
+                                <label for="recipient-name" class="control-label">Avancement Finition</label>
+                                <input type="text" class="form-control" id="avancementFinition" name="avancementFinition" value="<?= $projet->avancementFinition() ?>">
                               </div>
                           </div>
                           <div class="modal-footer">
