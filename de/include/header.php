@@ -1,8 +1,7 @@
 <?php
     $currentPage = basename($_SERVER['PHP_SELF']);
 ?>
-<!--header id="header" class="transparent-header full-header" data-sticky-class="not-dark"-->
-<header id="header" class="full-header" data-sticky-class="not-dark">
+<header id="header" class="transparent-header full-header" data-sticky-class="not-dark">
     <div id="header-wrap">
         <div class="container clearfix">
             <div id="primary-menu-trigger"><i class="icon-reorder"></i></div>
@@ -17,17 +16,17 @@
             <nav id="primary-menu" class="dark">
                 <ul>
                     <li <?= ($currentPage == "index.php") ? 'class="current"' : '' ?> >
-                        <a href="index.php"><div>Accueil</div></a>
+                        <a href="index.php"><div>Startseite</div></a>
                     </li>
                     <li <?= ($currentPage == "portfolio.php" || $currentPage == "portfolio-single-gallery.php") ? 'class="current"' : '' ?> >
-                        <a href="portfolio.php"><div>Nos Projets</div></a>
+                        <a href="portfolio.php"><div>Unsere Projekte</div></a>
                     </li>
                     <!--li ><a href="#"><div>Notre Offre</div></a></li-->
                     <li <?= ($currentPage == "about.php") ? 'class="current"' : '' ?>>
-                        <a href="about.php"><div>A propos du groupe</div></a>
+                        <a href="about.php"><div>Über Annahda</div></a>
                     </li>
                     <li <?= ($currentPage == "contact.php") ? 'class="current"' : '' ?>>
-                        <a href="contact.php"><div>Contact</div></a>
+                        <a href="contact.php"><div>Kontakt</div></a>
                     </li>
                 </ul>
             </nav><!-- #primary-menu end -->
