@@ -142,11 +142,11 @@
                             <div class="skin skin-flat">
                                 <ul class="list">
                                     <li>
-                                        <input tabindex="11" type="radio" id="square-radio-3" name="sliderType" value="1" <?= $typeSliderCheckedVideo ?> >
+                                        <input tabindex="11" type="radio" id="square-radio-4" name="sliderType" value="1" <?= $typeSliderCheckedVideo ?> >
                                         <label for="square-radio-3">Slider Video</label>
                                     </li>
                                     <li>
-                                        <input tabindex="12" type="radio" id="square-radio-4" name="sliderType" value="0" <?= $typeSliderCheckedImage ?> >
+                                        <input tabindex="12" type="radio" id="square-radio-5" name="sliderType" value="0" <?= $typeSliderCheckedImage ?> >
                                         <label for="square-radio-4">Slider Image</label>
                                     </li>
                                 </ul>
