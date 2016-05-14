@@ -4,13 +4,13 @@
             <div class="row clearfix">
                 <div class="col-lg-5">
                     <div class="heading-block topmargin">
-                        <h1>Bienvenue Chez<br>Groupe Annahda Lil Iaamar.</h1>
+                        <h1>Bienvenido a <br> Grupo Annahda Lil Iaamar.</h1>
                     </div>
                     <p class="lead"></p>
                 </div>
                 <div class="col-lg-7">
                     <div style="position: relative; margin-bottom: -60px;" class="ohidden" data-height-lg="426" data-height-md="567" data-height-sm="470" data-height-xs="287" data-height-xxs="183">
-                        <img src="images/logo-fullwidth.jpg" style="position: absolute; top: 0; left: 0;" data-animate="fadeInUp" data-delay="100" alt="Chrome">
+                        <img src="../images/logo-fullwidth.jpg" style="position: absolute; top: 0; left: 0;" data-animate="fadeInUp" data-delay="100" alt="Chrome">
                         <!--img src="images/services/main-fbrowser.png" style="position: absolute; top: 0; left: 0;" data-animate="fadeInUp" data-delay="100" alt="Chrome"-->
                         <!--img src="images/services/main-fmobile.png" style="position: absolute; top: 0; left: 0;" data-animate="fadeInUp" data-delay="400" alt="iPad"-->
                     </div>
@@ -20,26 +20,17 @@
         <div class="section nobottommargin">
             <div class="container clear-bottommargin clearfix">
             <div class="col_one_third bottommargin-sm center">
-                <img data-animate="fadeInLeft" src="images/logo-fullwidth.jpg" alt="Mission">
+                <img data-animate="fadeInLeft" src="../images/logo-fullwidth.jpg" alt="Mission">
             </div>
             <div class="col_two_third bottommargin-sm col_last">
                 <div class="heading-block topmargin-sm">
-                    <h3>Notre Mission</h3>
+                    <h3>Nuestra misión</h3>
                 </div>
                 <p>
-                    GROUPE ANNAHDA LIL IAAMAR, suit dans sa politique immobilière, 
-                    une stratégie qui se consiste de la transparence, la qualité, 
-                    la confiance, la sincérité et la maitrise des actions. 
-                    Ce groupe est un fruit des efforts fournis, expériences et 
-                    formations dans le domaine durant une long période.
+                    Grupo Annahda LIL IAAMAR sigue, en su política de edificios, una estrategia, la transparencia, la calidad, la confianza, la honestidad y el conocimiento de la obra. Este grupo es el fruto del esfuerzo, experiencia y formación en el campo durante mucho tiempo.
                 </p>
                 <p>
-                    Les projets du groupe se caractérise par l’immense de qualité 
-                    selon des normes architecturels agrées par l’Etat L’objectif 
-                    principal du groupe c’est d’appliquer la condition fondamentale 
-                    concernant le marketing, soit : rapport qualité/prix, ainsi qu’accompagner 
-                    le citoyen pour réaliser son rêve, d’être Propriétaire d’un bien immobilier 
-                    à court terme.
+                    El grupo de proyectos es aprobado por la tremenda calidad de Architectur de acuerdo con las normas de la meta del grupo principal estado allí, la condición básica para aplicar a la comercialización, a saber es: relación calidad / precio, y simplemente acompañen al ciudadano de su sueño de ser propietario de un negocio para darse cuenta en breve.
                 </p>
                 <!--a href="#" class="button button-border button-dark button-rounded button-large noleftmargin topmargin-sm">Learn more</a-->
             </div>
@@ -48,7 +39,7 @@
         <div class="container clearfix">
             <div class="row topmargin-lg bottommargin-sm">
                 <div class="heading-block center">
-                    <h2>Notre offre</h2>
+                    <h2>Nuestra propuesta</h2>
                     <!--span class="divcenter">Philanthropy convener livelihoods, initiative end hunger gender rights local. John Lennon storytelling; advocate, altruism impact catalyst.</span-->
                 </div>
                 <div class="col-md-4 col-sm-6 bottommargin">
@@ -56,16 +47,16 @@
                         <div class="fbox-icon">
                             <a href="#"><i class="icon-line-star"></i></a>
                         </div>
-                        <h3>Haute Qualité</h3>
-                        <p>Notre société vous garantit un logement de haute qualité pour vous et votre famille.</p>
+                        <h3>Calidad alta</h3>
+                        <p>Nuestra empresa garantiza un alojamiento de alta calidad para usted y su familia.</p>
                     </div>
 
                     <div class="feature-box fbox-right topmargin" data-animate="fadeIn" data-delay="200">
                         <div class="fbox-icon">
                             <a href="#"><i class="icon-line-plus"></i></a>
                         </div>
-                        <h3>Prix compétetifs</h3>
-                        <p>Le groupe Annahda vous propose une gamme de biens immobiliers avec des prix compétitifs.</p>
+                        <h3>Precios competitivos</h3>
+                        <p>El grupo Annahda tiene una serie de propiedades con precios competitivos.</p>
                     </div>
 
                 </div>
@@ -75,21 +66,20 @@
                 </div>
 
                 <div class="col-md-4 col-sm-6 bottommargin">
-
                     <div class="feature-box topmargin" data-animate="fadeIn">
                         <div class="fbox-icon">
                             <a href="#"><i class="icon-line-heart"></i></a>
                         </div>
-                        <h3>Finition</h3>
-                        <p>Avec notre société vous pouvez choisir votre propre finition selon vos besoins.</p>
+                        <h3>Acabado</h3>
+                        <p>Con nuestra empresa, puede elegir su propio acabado que se desee.</p>
                     </div>
 
                     <div class="feature-box topmargin" data-animate="fadeIn" data-delay="200">
                         <div class="fbox-icon">
                             <a href="#"><i class="icon-dollar"></i></a>
                         </div>
-                        <h3>Facilités de paiement</h3>
-                        <p>Payer par mois, par trimestre ou par semestre ? Avec nos facilités de paiement vous êtes libre à choisir.</p>
+                        <h3>Opciones de pago</h3>
+                        <p>Pagar mensual, trimestral o semi? Con nuestras opciones de pago que es libre de elegir.</p>
                     </div>
 
                 </div>
@@ -103,28 +93,28 @@
             <div class="col-md-3 col-sm-6 dark center col-padding" style="background-color: #515875;">
                 <div>
                     <div class="counter counter-lined"><span data-from="1" data-to="13" data-refresh-interval="50" data-speed="4000"></span></div>
-                    <h3>Projets</h3>
+                    <h3>Proyectos</h3>
                 </div>
             </div>
 
             <div class="col-md-3 col-sm-6 dark center col-padding" style="background-color: #6697B9;">
                 <div>
                     <div class="counter counter-lined"><span data-from="1" data-to="150" data-refresh-interval="25" data-speed="3500"></span></div>
-                    <h3>Clients satisfaits</h3>
+                    <h3>Clientes satisfechos</h3>
                 </div>
             </div>
 
             <div class="col-md-3 col-sm-6 dark center col-padding" style="background-color: #576F9E;">
                 <div>
                     <div class="counter counter-lined"><span data-from="1" data-to="260" data-refresh-interval="100" data-speed="3000"></span></div>
-                    <h3>Appartements et Locaux commerciaux</h3>
+                    <h3>Apartamentos y locales comerciales</h3>
                 </div>
             </div>
 
             <div class="col-md-3 col-sm-6 dark center col-padding" style="background-color: #88C3D8;">
                 <div>
-                    <div class="counter counter-lined"><span data-from="1" data-to="10" data-refresh-interval="5" data-speed="4500"></span> ans</div>
-                    <h3>d'expérience</h3>
+                    <div class="counter counter-lined"><span data-from="1" data-to="10" data-refresh-interval="5" data-speed="4500"></span> años</div>
+                    <h3> de experiencia</h3>
                 </div>
             </div>
 
@@ -133,7 +123,7 @@
         <div class="section topmargin nobottommargin nobottomborder">
             <div class="container clearfix">
                 <div class="heading-block center nomargin">
-                    <h3>Nos projets</h3>
+                    <h3>Nuestros Proyectos</h3>
                 </div>
             </div>
         </div>
@@ -203,13 +193,13 @@
 
         <a href="portfolio.php" class="button button-full button-dark center tright bottommargin-lg">
             <div class="container clearfix">
-                Voire tous les projets du Groupe Annahda. <strong>Cliquez ici</strong> <i class="icon-caret-right" style="top:4px;"></i>
+                O todos los proyectos del Grupo Annahda. <Strong> Haga clic aquí</strong> <i class="icon-caret-right" style="top:4px;"></i>
             </div>
         </a>
-        <div class="section parallax dark nobottommargin" style="background-image: url('images/holdinggroup2.jpg'); padding: 100px 0;" data-stellar-background-ratio="0.4">
+        <div class="section parallax dark nobottommargin" style="background-image: url('../images/holdinggroup2.jpg'); padding: 100px 0;" data-stellar-background-ratio="0.4">
 
             <div class="heading-block center">
-                <h3>Société Iaaza de construction</h3>
+                <h3>Iaaza compañía de construcción</h3>
             </div>
 
             <div class="fslider testimonial testimonial-full" data-animation="fade" data-arrows="false">
@@ -218,13 +208,13 @@
                         <div class="slide">
                             <div class="testi-content">
                                 <p>
-                                    La dite société est fondée à la ville de Nador en 2014 par le Groupe
-                                    Annahda Lil Iaamar, en vue d ́attaquer le grand marché
-                                    de la construction au niveau National en respectant toujours
-                                    le rapport Qualité/Prix.<br/><br/>
-                                    De ce fait, nous vous invitons de faire confiance a notre honorable
-                                    Établissement pour bien Construire votre avenir.
-                                    En l ́occurrence: Le résultat, approuve la promesse !        
+                                    La citada empresa se encuentra en la ciudad de Nador en 2014 sobre la base del Grupo
+                                    Annahda Lil Iaamar para tomar el gran mercado en el ataque
+                                    La construcción a nivel nacional, respetando siempre
+                                    la relación calidad / precio. <br/>
+                                    Por lo tanto le invitamos a nuestro honorable confianza
+                                    Institución de Inmobiliaria Construye tu futuro.
+                                    En este caso: El resultado es una promesa!      
                                 </p>
                             </div>
                         </div>

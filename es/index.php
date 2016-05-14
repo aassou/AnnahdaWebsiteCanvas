@@ -84,11 +84,11 @@
         <?php
         //if the value of indexContent is 0, this means that our page index is composed of slider and content
         if ( $config->indexContent() == 0 ) {
-            include('../include/index-content.php');
+            include('include/index-content.php');
         }
         //if the value of indexContent is 2, this means that our page index is composed of slider and minimal content
         else if ( $config->indexContent() == 2 ) {
-            include('../include/index-content-min.php');
+            include('include/index-content-min.php');
         }
         ?>
         <!-- #content end -->
