@@ -143,11 +143,11 @@
                                 <ul class="list">
                                     <li>
                                         <input tabindex="11" type="radio" id="square-radio-4" name="sliderType" value="1" <?= $typeSliderCheckedVideo ?> >
-                                        <label for="square-radio-3">Slider Video</label>
+                                        <label for="square-radio-4">Slider Video</label>
                                     </li>
                                     <li>
                                         <input tabindex="12" type="radio" id="square-radio-5" name="sliderType" value="0" <?= $typeSliderCheckedImage ?> >
-                                        <label for="square-radio-4">Slider Image</label>
+                                        <label for="square-radio-5">Slider Image</label>
                                     </li>
                                 </ul>
                                 <div style="clear:both;"></div>
