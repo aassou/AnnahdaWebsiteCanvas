@@ -21,10 +21,8 @@
 <!DOCTYPE html>
 <html dir="ltr" lang="en-US">
 <head>
-
     <meta http-equiv="content-type" content="text/html; charset=utf-8" />
     <meta name="author" content="SemiColonWeb" />
-
     <!-- Stylesheets
     ============================================= -->
     <link href="http://fonts.googleapis.com/css?family=Lato:300,400,400italic,600,700|Raleway:300,400,500,600,700|Crete+Round:400italic" rel="stylesheet" type="text/css" />
@@ -34,22 +32,33 @@
     <link rel="stylesheet" href="../css/font-icons.css" type="text/css" />
     <link rel="stylesheet" href="../css/animate.css" type="text/css" />
     <link rel="stylesheet" href="../css/magnific-popup.css" type="text/css" />
-
     <link rel="stylesheet" href="../css/responsive.css" type="text/css" />
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
     <!--[if lt IE 9]>
         <script src="http://css3-mediaqueries-js.googlecode.com/svn/trunk/css3-mediaqueries.js"></script>
     <![endif]-->
-
     <!-- External JavaScripts
     ============================================= -->
     <script type="text/javascript" src="../js/jquery.js"></script>
     <script type="text/javascript" src="../js/plugins.js"></script>
-
     <!-- Document Title
     ============================================= -->
     <title>Grupo Annahda | Nuestros Proyectos</title>
-
+    <!-- Piwik -->
+    <script type="text/javascript">
+      var _paq = _paq || [];
+      _paq.push(['trackPageView']);
+      _paq.push(['enableLinkTracking']);
+      (function() {
+        var u="//costetics.esy.es/admin/piwik/";
+        _paq.push(['setTrackerUrl', u+'piwik.php']);
+        _paq.push(['setSiteId', 1]);
+        var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0];
+        g.type='text/javascript'; g.async=true; g.defer=true; g.src=u+'piwik.js'; s.parentNode.insertBefore(g,s);
+      })();
+    </script>
+    <noscript><p><img src="//costetics.esy.es/admin/piwik/piwik.php?idsite=1" style="border:0;" alt="" /></p></noscript>
+    <!-- End Piwik Code -->
 </head>
 
 <body class="stretched">
