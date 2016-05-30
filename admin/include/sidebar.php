@@ -76,19 +76,19 @@
                             </a>
                         </li>
                         <li>
-                            <a class="tooltip-tip ajax-load" href="piwik/" target="_blank" title="Analyses du site">
+                            <a class="tooltip-tip ajax-load" href="piwik/" target="_blank" title="Analyse du site">
                                 <i class="fontawesome-dashboard"></i>
                                 <span>Analyse du site</span>
                             </a>
                         </li>
                         <li>
-                            <a class="tooltip-tip ajax-load" href="https://dashboard.tawk.to" target="_blank" title="Analyses du site">
+                            <a class="tooltip-tip ajax-load" href="https://dashboard.tawk.to" target="_blank" title="Système Chat">
                                 <i class="fontawesome-comment-alt"></i>
                                 <span>Système Chat</span>
                             </a>
                         </li>
                         <li>
-                            <a class="tooltip-tip ajax-load" href="https://hootsuite.com/dashboard" target="_blank" title="Analyses du site">
+                            <a class="tooltip-tip ajax-load" href="https://hootsuite.com/dashboard" target="_blank" title="Réseaux Sociaux">
                                 <i class="fontawesome-facebook-sign"></i>
                                 <span>Réseaux Sociaux</span>
                             </a>
