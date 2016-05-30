@@ -120,7 +120,7 @@
                     <div class="col-sm-3">
                         <div class="panel panel-default">
                             <div class="panel-google">
-                                <span class="entypo-chat middle-social"></span>
+                                <span class="fontawesome-envelope middle-social"></span>
                             </div>
                             <div class="panel-body">
                                 <p class="lead">Les Emails</p>
@@ -150,6 +150,84 @@
                             </div>
                             <div class="panel-body">
                                 <p class="lead">Paramètrages</p>
+                                <!--p>902 Followers, 88 Posts</p-->
+
+                                <!--p>
+                                    <img src="http://api.randomuser.me/portraits/thumb/men/16.jpg" alt="" class="social-pic img-circle">
+                                    <img src="http://api.randomuser.me/portraits/thumb/women/17.jpg" alt="" class="social-pic img-circle">
+
+                                    <a href="#" class="link-social">
+                                        <span class="entypo-link"></span>
+                                    </a>
+                                    <a href="#" class="link-social">
+                                        <span class="entypo-mail"></span>
+                                    </a>
+                                </p-->
+                            </div>
+                        </div>
+                    </div>
+                    </a>
+                    <!--/col-->
+                    <a href="piwik/index.php" target="_blank">
+                    <div class="col-sm-3">
+                        <div class="panel panel-default">
+                            <div class="panel-twitter">
+                                <span class="fontawesome-dashboard middle-social"></span>
+                            </div>
+                            <div class="panel-body">
+                                <p class="lead">Analyse du site</p>
+                                <!--p>902 Followers, 88 Posts</p-->
+
+                                <!--p>
+                                    <img src="http://api.randomuser.me/portraits/thumb/men/16.jpg" alt="" class="social-pic img-circle">
+                                    <img src="http://api.randomuser.me/portraits/thumb/women/17.jpg" alt="" class="social-pic img-circle">
+
+                                    <a href="#" class="link-social">
+                                        <span class="entypo-link"></span>
+                                    </a>
+                                    <a href="#" class="link-social">
+                                        <span class="entypo-mail"></span>
+                                    </a>
+                                </p-->
+                            </div>
+                        </div>
+                    </div>
+                    </a>
+                    <!--/col-->
+                    <a href="https://dashboard.tawk.to" target="_blank">
+                    <div class="col-sm-3">
+                        <div class="panel panel-default">
+                            <div class="panel-google">
+                                <span class="fontawesome-comment-alt middle-social"></span>
+                            </div>
+                            <div class="panel-body">
+                                <p class="lead">Système Chat</p>
+                                <!--p>902 Followers, 88 Posts</p-->
+
+                                <!--p>
+                                    <img src="http://api.randomuser.me/portraits/thumb/men/16.jpg" alt="" class="social-pic img-circle">
+                                    <img src="http://api.randomuser.me/portraits/thumb/women/17.jpg" alt="" class="social-pic img-circle">
+
+                                    <a href="#" class="link-social">
+                                        <span class="entypo-link"></span>
+                                    </a>
+                                    <a href="#" class="link-social">
+                                        <span class="entypo-mail"></span>
+                                    </a>
+                                </p-->
+                            </div>
+                        </div>
+                    </div>
+                    </a>
+                    <!--/col-->
+                    <a href="https://hootsuite.com/dashboard" target="_blank">
+                    <div class="col-sm-3">
+                        <div class="panel panel-default">
+                            <div class="panel-instagram">
+                                <span class="fontawesome-facebook-sign middle-social"></span>
+                            </div>
+                            <div class="panel-body">
+                                <p class="lead">Réseaux Sociaux</p>
                                 <!--p>902 Followers, 88 Posts</p-->
 
                                 <!--p>

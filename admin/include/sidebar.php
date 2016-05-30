@@ -65,14 +65,32 @@
                         </li>
                         <li>
                             <a class="tooltip-tip ajax-load" href="emails.php" title="Les Emails">
-                                <i class="entypo-chat"></i>
+                                <i class="fontawesome-envelope"></i>
                                 <span>Les Emails</span>
                             </a>
                         </li>
                         <li>
-                            <a class="tooltip-tip ajax-load" href="configuration.php" title="Les Emails">
+                            <a class="tooltip-tip ajax-load" href="configuration.php" title="Paramètrages">
                                 <i class="entypo-cog"></i>
                                 <span>Paramètrages</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a class="tooltip-tip ajax-load" href="piwik/" target="_blank" title="Analyses du site">
+                                <i class="fontawesome-dashboard"></i>
+                                <span>Analyse du site</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a class="tooltip-tip ajax-load" href="https://dashboard.tawk.to" target="_blank" title="Analyses du site">
+                                <i class="fontawesome-comment-alt"></i>
+                                <span>Système Chat</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a class="tooltip-tip ajax-load" href="https://hootsuite.com/dashboard" target="_blank" title="Analyses du site">
+                                <i class="fontawesome-facebook-sign"></i>
+                                <span>Réseaux Sociaux</span>
                             </a>
                         </li>
                     </ul>
