@@ -1,5 +1,5 @@
 <section class="slider-parallax swiper_wrapper full-screen clearfix">
-<video style="width: 100%; height:80%;" controls>
+<video style="width: 100%; height:80%;" controls="controls" autoplay="autoplay">
   <source src="videos/annahda-video-slider.mp4">
   Votre navigateur ne gère pas l'élément <code>video</code>.
 </video>
