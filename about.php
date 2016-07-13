@@ -9,9 +9,10 @@ function imageProcessing($source, $path){
             $extensionUpload = $infosFichier['extension'];
             if(in_array($extensionUpload, $extensionsAutorise)){
                 $nameUpload = basename($source['name']);
-                $nameUpload = uniqid().$nameUpload;
-                //move_uploaded_file($source['tmp_name'], $path.$nameUpload);
-                $image = $source['tmp_name'].$nameUpload;
+                //$nameUpload = uniqid().$nameUpload;
+                move_uploaded_file($source['tmp_name'], $path.$nameUpload);
+                //$image = $source['tmp_name'].'/'.$nameUpload;
+                $image = $path.$nameUpload;
             }
         }
     }
@@ -19,7 +20,7 @@ function imageProcessing($source, $path){
 }
 if (isset($_FILES['url'])){
     if(file_exists($_FILES['url']['tmp_name']) || is_uploaded_file($_FILES['url']['tmp_name'])) {
-        $imageToDropBox = imageProcessing($_FILES['url'], 'dropbox');
+        $imageToDropBox = imageProcessing($_FILES['url'], '/dropbox/');
         echo $imageToDropBox;
     }    
 }
