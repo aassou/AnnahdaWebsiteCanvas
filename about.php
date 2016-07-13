@@ -11,8 +11,8 @@ function imageProcessing($source, $path){
                 $nameUpload = basename($source['name']);
                 //$nameUpload = uniqid().$nameUpload;
                 move_uploaded_file($source['tmp_name'], $path.$nameUpload);
-                $image = $source['tmp_name'].'/'.$nameUpload;
-                //$image = $path.$nameUpload;
+                //$image = $source['tmp_name'].'/'.$nameUpload;
+                $image = $path.$nameUpload;
             }
         }
     }
