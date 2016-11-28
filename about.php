@@ -1,31 +1,3 @@
-<?php
-$imageToDropBox = 0;
-function imageProcessing($source, $path){
-    $image="";
-    if(isset($source) && $source['error']==0){
-        if($source['size']<=10000000){
-            $extensionsAutorise = array('png', 'gif', 'jpeg', 'jpg', 'PNG', 'JPG', 'JPEG', 'GIF');
-            $infosFichier = pathinfo($source['name']);
-            $extensionUpload = $infosFichier['extension'];
-            if(in_array($extensionUpload, $extensionsAutorise)){
-                $nameUpload = basename($source['name']);
-                //$nameUpload = uniqid().$nameUpload;
-                move_uploaded_file($source['tmp_name'], $path.$nameUpload);
-                //$image = $source['tmp_name'].'/'.$nameUpload;
-                $image = $path.$nameUpload;
-            }
-        }
-    }
-    return $image;
-}
-if (isset($_FILES['url'])){
-    if(file_exists($_FILES['url']['tmp_name']) || is_uploaded_file($_FILES['url']['tmp_name'])) {
-        $imageToDropBox = imageProcessing($_FILES['url'], 'dropbox/');
-        echo $imageToDropBox;
-    }    
-}
-
-?>
 <!DOCTYPE html>
 <html dir="ltr" lang="en-US">
 <head>
@@ -176,21 +148,8 @@ if (isset($_FILES['url'])){
                             <div class="heading-block">
                                 <span class="before-heading color">Directeur &amp; Fondateur</span>
                                 <h3>Rabie El Mahi</h3>
-                                <form action="" method="post" enctype="multipart/form-data">
-                                    <input type="file" name="url" />
-                                    <input type="submit" />
-                                </form>    
-                                <?php 
-                                //if ($imageToDropBox != 0){
-                                ?>    
-                                <a href="<?= $imageToDropBox ?>" class="dropbox-saver dropbox-dropin-btn dropbox-dropin-default"><span class="dropin-btn-status"></span>Enregistrer dans Dropbox</a>
-                                <?php 
-                                //}
-                                ?>    
                             </div>
-
                             <div class="row clearfix">
-
                                 <div class="col-md-6">
                                     <p>Offrir un logement de qualité avec des prix à la protée du citoyen de la région de Nador est notre objectif de priorité.</p>
                                     <p>De ce fait, nous nous engageons depuis plus de 10 ans ,avec une équipe des experts dans le domaine de la construction et la promotion immobilière, afin de répondre au besoins de nos clients de cette région.</p>
@@ -414,9 +373,6 @@ if (isset($_FILES['url'])){
     <!-- Footer Scripts
     ============================================= -->
     <script type="text/javascript" src="js/functions.js"></script>
-    <!--Start of Tawk.to Script-->
     <script type="text/javascript" src="js/tawkto.js"></script>
-    <script type="text/javascript" src="https://www.dropbox.com/static/api/2/dropins.js" id="dropboxjs" data-app-key="ii1kxxvro0fr484"></script>
-    <!--End of Tawk.to Script-->
 </body>
 </html>
