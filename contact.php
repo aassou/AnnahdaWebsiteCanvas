@@ -156,13 +156,10 @@
 
                         <section id="google-map" class="gmap" style="height: 410px;"></section>
 
-                        <script type="text/javascript" src="http://maps.google.com/maps/api/js?sensor=false"></script>
+                        <script type="text/javascript" src="http://maps.google.com/maps/api/js?key=AIzaSyC2jAi3XOvfBxzs90ako76GMQIcM9lIdgo&sensor=false"></script>
                         <script type="text/javascript" src="js/jquery.gmap.js"></script>
-
                         <script type="text/javascript">
-
                             jQuery('#google-map').gMap({
-
                                 //address: 'Nador, Maroc',
                                 maptype: 'ROADMAP',
                                 zoom: 16,
@@ -188,15 +185,10 @@
                                     streetViewControl: false,
                                     overviewMapControl: false
                                 }
-
                             });
-
                         </script>
-
                     </div><!-- Google Map End -->
-
                     <div class="clear"></div>
-
                     <!-- Contact Info
                     ============================================= -->
                     <div class="row clear-bottommargin">
