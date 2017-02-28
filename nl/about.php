@@ -375,8 +375,5 @@
     <!-- Footer Scripts
     ============================================= -->
     <script type="text/javascript" src="../js/functions.js"></script>
-    <!--Start of Tawk.to Script-->
-    <script type="text/javascript" src="../js/tawkto.js"></script>
-    <!--End of Tawk.to Script-->
 </body>
 </html>

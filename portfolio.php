@@ -49,21 +49,6 @@
     <!-- Document Title
     ============================================= -->
     <title>Groupe Annahda | Nos projets</title>
-    <!-- Piwik -->
-    <script type="text/javascript">
-      var _paq = _paq || [];
-      _paq.push(['trackPageView']);
-      _paq.push(['enableLinkTracking']);
-      (function() {
-        var u="//costetics.esy.es/admin/piwik/";
-        _paq.push(['setTrackerUrl', u+'piwik.php']);
-        _paq.push(['setSiteId', 1]);
-        var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0];
-        g.type='text/javascript'; g.async=true; g.defer=true; g.src=u+'piwik.js'; s.parentNode.insertBefore(g,s);
-      })();
-    </script>
-    <noscript><p><img src="//costetics.esy.es/admin/piwik/piwik.php?idsite=1" style="border:0;" alt="" /></p></noscript>
-    <!-- End Piwik Code -->
 </head>
 
 <body class="stretched">
@@ -167,7 +152,7 @@
                         <article class="portfolio-item pf-media pf-icons">
                             <div class="portfolio-image">
                                 <a href="portfolio-single-gallery.php?idProjet=<?= $projet->id() ?>">
-                                    <?= $image ?>
+                                    <?php //$image ?>
                                 </a>
                                 <div class="portfolio-overlay">
                                     <a href="portfolio-single-gallery.php?idProjet=<?= $projet->id() ?>" class="left-icon"><i class="icon-line-plus"></i></a>
@@ -443,8 +428,5 @@
     <!-- Footer Scripts
     ============================================= -->
     <script type="text/javascript" src="js/functions.js"></script>
-    <!--Start of Tawk.to Script-->
-    <script type="text/javascript" src="js/tawkto.js"></script>
-    <!--End of Tawk.to Script-->
 </body>
 </html>

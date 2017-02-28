@@ -1831,13 +1831,13 @@ body:not(.device-sm):not(.device-xs):not(.device-xxs) #header.transparent-header
 #logo img,
 #primary-menu:not(.style-2),
 #primary-menu:not(.style-2) > ul {
-	height: 60px;
+	height: 40px;
 	/*-webkit-transition: height .4s ease, opacity .3s ease;
 	-o-transition: height .4s ease, opacity .3s ease;
 	transition: height .4s ease, opacity .3s ease;*/
 }
 
-#header, #primary-menu > ul > li > a { line-height: 60px; }
+#header, #primary-menu > ul > li > a { line-height: 40px; }
 
 #header.sticky-style-2 { height: 161px; }
 
@@ -1900,13 +1900,13 @@ body.top-search-open #side-panel-trigger { opacity: 0; }
 #header.sticky-header:not(.static-sticky):not(.sticky-style-2) #logo img,
 #header.sticky-header:not(.static-sticky) #primary-menu,
 #header.sticky-header:not(.static-sticky) #primary-menu > ul,
-#header.sticky-header:not(.static-sticky) #primary-menu > ul > li > a { height: 60px; }
+#header.sticky-header:not(.static-sticky) #primary-menu > ul > li > a { height: 40px; }
 
 #header.sticky-header:not(.static-sticky).sticky-style-2 { height: 161px; }
 
-#header.sticky-header:not(.static-sticky) #primary-menu > ul > li > a { line-height: 60px; }
+#header.sticky-header:not(.static-sticky) #primary-menu > ul > li > a { line-height: 40px; }
 
-#header.sticky-header:not(.static-sticky) #primary-menu > ul > li > a i { line-height: 59px; }
+#header.sticky-header:not(.static-sticky) #primary-menu > ul > li > a i { line-height: 40px; }
 
 #header.sticky-header:not(.static-sticky) #primary-menu > ul > li > ul,
 #header.sticky-header:not(.static-sticky) #primary-menu > ul > li > .mega-menu-content,
@@ -3051,7 +3051,7 @@ body.side-push-panel.side-panel-open:not(.device-xxs):not(.device-xs):not(.devic
 
 #page-title {
 	position: relative;
-	padding: 50px 0;
+	padding: 20px 0;
 	background-color: #F5F5F5;
 	border-bottom: 1px solid #EEE;
 }
@@ -6536,7 +6536,7 @@ body:not(.device-touch) .button {
 	text-shadow: 1px 1px 1px rgba(0,0,0,0.2);
 }
 
-.button.button-dark:hover { background-color: #1ABC9C; }
+.button.button-dark:hover { background-color: #bf883b; }
 
 .button.button-mini {
 	padding: 0 14px;

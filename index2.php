@@ -1,15 +1,15 @@
 <?php
 //classes loading begin
     function classLoad ($myClass) {
-        if(file_exists('../admin/model/'.$myClass.'.php')){
-            include('../admin/model/'.$myClass.'.php');
+        if(file_exists('admin/model/'.$myClass.'.php')){
+            include('admin/model/'.$myClass.'.php');
         }
-        elseif(file_exists('../admin/controller/'.$myClass.'.php')){
-            include('../admin/controller/'.$myClass.'.php');
+        elseif(file_exists('admin/controller/'.$myClass.'.php')){
+            include('admin/controller/'.$myClass.'.php');
         }
     }
     spl_autoload_register("classLoad"); 
-    include('../include/config.php');
+    include('include/config.php');
     //classes loading end
     //class managers
     $sliderImageManager = new SliderImageManager($pdo);
@@ -33,14 +33,14 @@
     <!-- Stylesheets
     ============================================= -->
     <link href="http://fonts.googleapis.com/css?family=Lato:300,400,400italic,600,700|Raleway:300,400,500,600,700|Crete+Round:400italic" rel="stylesheet" type="text/css" />
-    <link rel="stylesheet" href="../css/bootstrap.css" type="text/css" />
-    <link rel="stylesheet" href="../style.css" type="text/css" />
-    <link rel="stylesheet" href="../css/dark.min.css" type="text/css" />
-    <link rel="stylesheet" href="../css/font-icons.css" type="text/css" />
-    <link rel="stylesheet" href="../css/animate.css" type="text/css" />
-    <link rel="stylesheet" href="../css/magnific-popup.css" type="text/css" />
+    <link rel="stylesheet" href="css/bootstrap.css" type="text/css" />
+    <link rel="stylesheet" href="style.css" type="text/css" />
+    <link rel="stylesheet" href="css/dark.min.css" type="text/css" />
+    <link rel="stylesheet" href="css/font-icons.css" type="text/css" />
+    <link rel="stylesheet" href="css/animate.css" type="text/css" />
+    <link rel="stylesheet" href="css/magnific-popup.css" type="text/css" />
 
-    <link rel="stylesheet" href="../css/responsive.css" type="text/css" />
+    <link rel="stylesheet" href="css/responsive.css" type="text/css" />
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
     <!--[if lt IE 9]>
         <script src="http://css3-mediaqueries-js.googlecode.com/svn/trunk/css3-mediaqueries.js"></script>
@@ -48,12 +48,12 @@
 
     <!-- External JavaScripts
     ============================================= -->
-    <script type="text/javascript" src="../js/jquery.js"></script>
-    <script type="text/javascript" src="../js/plugins.js"></script>
+    <script type="text/javascript" src="js/jquery.js"></script>
+    <script type="text/javascript" src="js/plugins.js"></script>
 
     <!-- Document Title
     ============================================= -->
-    <title>Groep Annahda</title>
+    <title>Groupe Annahda Lil Iaamar</title>
     <!-- Piwik -->
     <script type="text/javascript">
       var _paq = _paq || [];
@@ -86,10 +86,10 @@
         <!-- #slider begin -->
         <?php 
         if ( $config->sliderType() == 1 ) {
-            include("../include/slider-video.php");
+            include("include/slider-video.php");
         }
         else {
-            include("../include/slider-images.php");
+            include("include/slider-images.php");
         }     
         ?>
         <!-- #slider end -->
@@ -122,6 +122,9 @@
 
     <!-- Footer Scripts
     ============================================= -->
-    <script type="text/javascript" src="../js/functions.js"></script>
+    <script type="text/javascript" src="js/functions.js"></script>
+    <!--Start of Tawk.to Script-->
+    <script type="text/javascript" src="js/tawkto.js"></script>
+    <!--End of Tawk.to Script-->
 </body>
 </html>

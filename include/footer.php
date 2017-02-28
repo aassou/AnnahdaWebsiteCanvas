@@ -78,11 +78,11 @@
     <div id="copyrights">
         <div class="container clearfix">
             <div class="col_half">
-                Tous droits réservés pour la société Groupe Annahda Lil Iaamar &copy; 2016.<br>
+                Tous droits réservés pour la société Groupe Annahda Lil Iaamar &copy; 2010-<?= date('Y') ?>.<br>
                 <div class="copyright-links"><a href="http://goo.gl/eLJ2Bg">Droits d'utilisation</a> / <a href="http://goo.gl/eLJ2Bg">Politique de confidentialité</a></div>
             </div>
             <div class="col_half col_last tright">
-                <div class="fright clearfix">
+                <!--div class="fright clearfix">
                     <a target="_blank" href="https://www.facebook.com/groupeannahdaliliaamar/?fref=ts" class="social-icon si-small si-borderless si-facebook">
                         <i class="icon-facebook"></i>
                         <i class="icon-facebook"></i>
@@ -91,7 +91,7 @@
                         <i class="icon-youtube"></i>
                         <i class="icon-youtube"></i>
                     </a>
-                </div>
+                </div-->
                 <div class="clear"></div>
                 <i class="icon-envelope2"></i> groupe_annahda@gmail.com <span class="middot">&middot;</span> <i class="icon-headphones"></i> Groupe_Annahda <span class="middot">&middot;</span> <i class="icon-skype2"></i> GroupeAnnahda Sur Skype
             </div>

@@ -99,37 +99,31 @@
         </div>
 
         <div class="row clearfix bottommargin-lg common-height">
-
-            <div class="col-md-3 col-sm-6 dark center col-padding" style="background-color: #515875;">
-                <div>
-                    <div class="counter counter-lined"><span data-from="1" data-to="13" data-refresh-interval="50" data-speed="4000"></span></div>
-                    <h3>Projets</h3>
-                </div>
-            </div>
-
-            <div class="col-md-3 col-sm-6 dark center col-padding" style="background-color: #6697B9;">
-                <div>
-                    <div class="counter counter-lined"><span data-from="1" data-to="150" data-refresh-interval="25" data-speed="3500"></span></div>
-                    <h3>Clients satisfaits</h3>
-                </div>
-            </div>
-
-            <div class="col-md-3 col-sm-6 dark center col-padding" style="background-color: #576F9E;">
-                <div>
-                    <div class="counter counter-lined"><span data-from="1" data-to="260" data-refresh-interval="100" data-speed="3000"></span></div>
-                    <h3>Appartements et Locaux commerciaux</h3>
-                </div>
-            </div>
-
             <div class="col-md-3 col-sm-6 dark center col-padding" style="background-color: #88C3D8;">
                 <div>
-                    <div class="counter counter-lined"><span data-from="1" data-to="10" data-refresh-interval="5" data-speed="4500"></span> ans</div>
+                    <div class="counter counter-lined"><span data-from="1" data-to="7" data-refresh-interval="5" data-speed="4000"></span> ans</div>
                     <h3>d'expérience</h3>
                 </div>
             </div>
-
+            <div class="col-md-3 col-sm-6 dark center col-padding" style="background-color: #515875;">
+                <div>
+                    <div class="counter counter-lined"><span data-from="1" data-to="14" data-refresh-interval="50" data-speed="4000"></span></div>
+                    <h3>Projets</h3>
+                </div>
+            </div>
+            <div class="col-md-3 col-sm-6 dark center col-padding" style="background-color: #6697B9;">
+                <div>
+                    <div class="counter counter-lined"><span data-from="1" data-to="275" data-refresh-interval="25" data-speed="3500"></span></div>
+                    <h3>Clients satisfaits</h3>
+                </div>
+            </div>
+            <div class="col-md-3 col-sm-6 dark center col-padding" style="background-color: #576F9E;">
+                <div>
+                    <div class="counter counter-lined"><span data-from="1" data-to="300" data-refresh-interval="100" data-speed="3000"></span></div>
+                    <h3>Appartements et Locaux commerciaux</h3>
+                </div>
+            </div>
         </div>
-
         <div class="section topmargin nobottommargin nobottomborder">
             <div class="container clearfix">
                 <div class="heading-block center nomargin">
@@ -153,7 +147,7 @@
             <article class="portfolio-item pf-media pf-icons">
                 <div class="portfolio-image">
                     <a href="portfolio-single-gallery.php?idProjet=<?= $projet->id() ?>">
-                        <?= $image ?>
+                        <?php //$image ?>
                     </a>
                     <div class="portfolio-overlay">
                         <a href="portfolio-single-gallery.php?idProjet=<?= $projet->id() ?>" class="left-icon"><i class="icon-line-plus"></i></a>
