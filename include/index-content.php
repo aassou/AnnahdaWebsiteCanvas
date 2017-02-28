@@ -147,7 +147,7 @@
             <article class="portfolio-item pf-media pf-icons">
                 <div class="portfolio-image">
                     <a href="portfolio-single-gallery.php?idProjet=<?= $projet->id() ?>">
-                        <?php //$image ?>
+                        <?= $image ?>
                     </a>
                     <div class="portfolio-overlay">
                         <a href="portfolio-single-gallery.php?idProjet=<?= $projet->id() ?>" class="left-icon"><i class="icon-line-plus"></i></a>
