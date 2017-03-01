@@ -1,0 +1,51 @@
+[
+    {
+        "name": "uploadcare/uploadcare-php",
+        "version": "v1.5.5",
+        "version_normalized": "1.5.5.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/uploadcare/uploadcare-php.git",
+            "reference": "cdbba2adfc6bafd95e6cd99ad20a6fe028cbe47a"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/uploadcare/uploadcare-php/zipball/cdbba2adfc6bafd95e6cd99ad20a6fe028cbe47a",
+            "reference": "cdbba2adfc6bafd95e6cd99ad20a6fe028cbe47a",
+            "shasum": ""
+        },
+        "require": {
+            "ext-curl": "*",
+            "ext-json": "*",
+            "php": ">=5.3"
+        },
+        "time": "2016-05-25 17:22:20",
+        "type": "library",
+        "installation-source": "dist",
+        "autoload": {
+            "psr-0": {
+                "Uploadcare": "src"
+            }
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "MIT"
+        ],
+        "authors": [
+            {
+                "name": "Uploadcare, LLC",
+                "email": "hello@uploadcare.com"
+            }
+        ],
+        "description": "Uploadcare API binding for PHP",
+        "homepage": "https://uploadcare.com",
+        "keywords": [
+            "cdn",
+            "cloud",
+            "files",
+            "image management",
+            "upload",
+            "uploadcare"
+        ]
+    }
+]

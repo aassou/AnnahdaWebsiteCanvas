@@ -1,0 +1,6 @@
+{
+	"name" : "Annahda Website", 
+	"require": {
+	    "uploadcare/uploadcare-php": ">=v1.1.0,<2.0"
+	}
+}

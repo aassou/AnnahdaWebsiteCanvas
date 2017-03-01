@@ -25,7 +25,7 @@
 
     $projetManager = new ProjetManager($pdo);
 	//Action Add Processing Begin
-    	if($action == "add"){
+    if($action == "add"){
         if( !empty($_POST['name']) ){
 			$name = htmlentities($_POST['name']);
 			$description = htmlentities($_POST['description']);

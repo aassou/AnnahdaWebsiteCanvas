@@ -10,6 +10,8 @@
     }
     spl_autoload_register("classLoad"); 
     include('../include/config.php');
+    require('../vendor/autoload.php');
+    use \Uploadcare;
     //classes loading end
     session_start();
     if( isset($_SESSION['userAnnahdaSite']) ){
@@ -23,11 +25,14 @@
         $projet = $projetManager->getProjetById($idProjet);
         $images = $imageManager->getImagesByProjet($idProjet);
         $videos = $videoManager->getVideosByProjet($idProjet);
+        //uploadcare API
+        $api = new Uploadcare\Api('a4fcbce4f6985e0b0ddc', '8fefa950371952d6bf60');
 ?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <?php include('include/head.php'); ?>    
+    <?php include('include/head.php'); ?>
+    <?php echo $api->widget->getScriptTag(); ?>    
 </head>
 <body>
     <!-- Preloader -->
@@ -104,27 +109,19 @@
                                 <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
                                 <h4 class="modal-title" id="exampleModalLabel">Nouvelle Image</h4>
                               </div>
-                              <div class="modal-body">
-                                <form action="controller/ImageActionController.php" method="post">
+                              <form action="controller/ImageActionController.php" method="post">
+                                <div class="modal-body">
                                   <div class="form-group">
-                                    <label for="recipient-name" class="control-label">Nom</label>
-                                    <input type="text" class="form-control" id="name" name="name">
+                                    <label for="recipient-name" class="control-label">Image</label>
+                                    <?php echo $api->widget->getInputTag('qs-file'); ?>
                                   </div>
-                                  <div class="form-group">
-                                    <label for="recipient-name" class="control-label">Lien</label>
-                                    <input type="text" class="form-control" id="url" name="url">
-                                  </div>
-                                  <div class="form-group">
-                                    <label for="message-text" class="control-label">Description</label>
-                                    <textarea class="form-control" name="description" id="description"></textarea>
-                                  </div>
-                              </div>
-                              <div class="modal-footer">
-                                <input type="hidden" name="action" value="add">
-                                <input type="hidden" name="idProjet" value="<?= $projet->id() ?>">
-                                <button type="button" class="btn btn-default" data-dismiss="modal">Fermer</button>
-                                <input value="Enregistrer" type="submit" class="btn btn-primary" />
-                              </div>
+                                </div>
+                                <div class="modal-footer">
+                                    <input type="hidden" name="action" value="add">
+                                    <input type="hidden" name="idProjet" value="<?= $projet->id() ?>">
+                                    <button type="button" class="btn btn-default" data-dismiss="modal">Fermer</button>
+                                    <input value="Enregistrer" type="submit" class="btn btn-primary" />
+                                </div>
                               </form>
                             </div>
                           </div>
@@ -141,7 +138,7 @@
                     <div class="col-sm-3">
                         <div class="panel panel-default">
                             <div class="panel-facebook">    
-                                <img style="width: 200px; height:150px;" src="<?= $image->url() ?>" />
+                                <img style="width: 200px; height:150px;" src="<?= $image->url() ?>/-/blur/50" />
                             </div>
                             <div class="panel-body">
                                 <p><?php //$image->name() ?>

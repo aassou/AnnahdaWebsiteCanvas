@@ -19,6 +19,7 @@
         //classes
         $sliderImages = $sliderImageManager->getSliderImages();
         $sliderVideos = $sliderVideoManager->getSliderVideos();
+        
 ?>
 <!DOCTYPE html>
 <html lang="en">

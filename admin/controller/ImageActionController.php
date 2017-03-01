@@ -26,9 +26,9 @@
     $imageManager = new ImageManager($pdo);
 	//Action Add Processing Begin
     if($action == "add"){
-        if( !empty($_POST['name']) ){
+        if( !empty($_POST['qs-file']) ){
 			$name = htmlentities($_POST['name']);
-			$url = htmlentities($_POST['url']);
+			$url = htmlentities($_POST['qs-file']);
 			$description = htmlentities($_POST['description']);
 			$createdBy = $_SESSION['userAnnahdaSite']->login();
             $created = date('Y-m-d h:i:s');
