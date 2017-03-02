@@ -64,8 +64,7 @@ class ImageManager{
 
     public function getFirstImageByIdProjet($idProjet){
         $query = $this->_db->prepare(
-        'SELECT * FROM t_image
-        WHERE idProjet=:idProjet LIMIT 0,1')
+        'SELECT * FROM t_image WHERE idProjet=:idProjet ORDER BY id ASC LIMIT 0,1')
         or die (print_r($this->_db->errorInfo()));
         $query->bindValue(':idProjet', $idProjet);
         $query->execute();      
@@ -114,8 +113,11 @@ class ImageManager{
 
 	public function getImagesByLimits($begin, $end){
 		$images = array();
-		$query = $this->_db->query('SELECT * FROM t_image
-		ORDER BY id DESC LIMIT '.$begin.', '.$end);
+		$query = $this->_db->prepare('SELECT * FROM t_image
+		ORDER BY id DESC LIMIT :begin, :end');
+        $query->bindValue(':begin', $begin);
+        $query->bindValue(':end', $end);
+        $query->execute();
 		while($data = $query->fetch(PDO::FETCH_ASSOC)){
 			$images[] = new Image($data);
 		}
