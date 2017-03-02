@@ -9,15 +9,15 @@
             <!-- Logo
             ============================================= -->
             <div id="logo">
-                <a href="index.php" class="standard-logo" data-dark-logo="/images/logo-square.png"><img src="/images/logo-square.png" alt="Groupe Annahda"></a>
-                <a href="index.php" class="retina-logo" data-dark-logo="/images/logo-square.png"><img src="/images/logo-square.png" alt="Groupe Annahda"></a>
+                <a href="/home" class="standard-logo" data-dark-logo="/images/logo-square.png"><img src="/images/logo-square.png" alt="Groupe Annahda"></a>
+                <a href="/home" class="retina-logo" data-dark-logo="/images/logo-square.png"><img src="/images/logo-square.png" alt="Groupe Annahda"></a>
             </div><!-- #logo end -->
             <!-- Primary Navigation
             ============================================= -->
             <nav id="primary-menu" class="dark">
                 <ul>
-                    <li <?= ($currentPage == "index.php") ? 'class="current"' : '' ?> >
-                        <a href="/index.php" title="Français"><img src="/images/icons/flags/french.png" /></a>
+                    <li <?= ($currentPage == "home") ? 'class="current"' : '' ?> >
+                        <a href="/home" title="Français"><img src="/images/icons/flags/french.png" /></a>
                     </li>
                     <li <?= ($currentPage == "index.php") ? 'class="current"' : '' ?> >
                         <a href="/de/index.php" title="Deutsch"><img src="/images/icons/flags/german.png" /></a>
@@ -28,18 +28,18 @@
                     <li <?= ($currentPage == "index.php") ? 'class="current"' : '' ?> >
                         <a href="/es/index.php" title="Español"><img src="/images/icons/flags/spain.png" /></a>
                     </li>
-                    <li <?= ($currentPage == "index.php") ? 'class="current"' : '' ?> >
-                        <a href="index.php"><div>Accueil</div></a>
+                    <li <?= ($currentPage == "home") ? 'class="current"' : '' ?> >
+                        <a href="/home"><div>Accueil</div></a>
                     </li>
-                    <li <?= ($currentPage == "portfolio.php" || $currentPage == "portfolio-single-gallery.php") ? 'class="current"' : '' ?> >
-                        <a href="portfolio.php"><div>Nos Projets</div></a>
+                    <li <?= ($currentPage == "projects" || $currentPage == "project") ? 'class="current"' : '' ?> >
+                        <a href="/projects"><div>Nos Projets</div></a>
                     </li>
                     <!--li ><a href="#"><div>Notre Offre</div></a></li-->
-                    <li <?= ($currentPage == "about.php") ? 'class="current"' : '' ?>>
-                        <a href="about.php"><div>A propos du groupe</div></a>
+                    <li <?= ($currentPage == "about") ? 'class="current"' : '' ?>>
+                        <a href="/about"><div>A propos du groupe</div></a>
                     </li>
-                    <li <?= ($currentPage == "contact.php") ? 'class="current"' : '' ?>>
-                        <a href="contact.php"><div>Contact</div></a>
+                    <li <?= ($currentPage == "contact") ? 'class="current"' : '' ?>>
+                        <a href="/contact"><div>Contact</div></a>
                     </li>
                 </ul>
             </nav><!-- #primary-menu end -->
