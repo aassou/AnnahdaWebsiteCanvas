@@ -4,14 +4,14 @@
         if(file_exists('model/'.$myClass.'.php')){
             include('model/'.$myClass.'.php');
         }
-        elseif(file_exists('controller/'.$myClass.'.php')){
+        if(file_exists('controller/'.$myClass.'.php')){
             include('controller/'.$myClass.'.php');
         }
     }
     spl_autoload_register("classLoad"); 
     include('../include/config.php');
     require('../vendor/autoload.php');
-    use \Uploadcare;
+    use \Uploadcare\Api;
     //classes loading end
     session_start();
     if( isset($_SESSION['userAnnahdaSite']) ){
@@ -26,7 +26,7 @@
         $images = $imageManager->getImagesByProjet($idProjet);
         $videos = $videoManager->getVideosByProjet($idProjet);
         //uploadcare API
-        $api = new Uploadcare\Api('a4fcbce4f6985e0b0ddc', '8fefa950371952d6bf60');
+        $api = new \Uploadcare\Api('a4fcbce4f6985e0b0ddc', '8fefa950371952d6bf60');
 ?>
 <!DOCTYPE html>
 <html lang="en">
@@ -138,7 +138,7 @@
                     <div class="col-sm-3">
                         <div class="panel panel-default">
                             <div class="panel-facebook">    
-                                <img style="width: 200px; height:150px;" src="<?= $image->url() ?>/-/blur/50" />
+                                <img style="width: 200px; height:150px;" src="<?= $image->url() ?>" />
                             </div>
                             <div class="panel-body">
                                 <p><?php //$image->name() ?>
