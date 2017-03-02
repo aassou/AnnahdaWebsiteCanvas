@@ -63,10 +63,10 @@
         <!-- #slider begin -->
         <?php 
         if ( $config->sliderType() == 1 ) {
-            include("/../include/slider-video.php");
+            include("../include/slider-video.php");
         }
         else {
-            include("/../include/slider-images.php");
+            include("../include/slider-images.php");
         }     
         ?>
         <!-- #slider end -->
