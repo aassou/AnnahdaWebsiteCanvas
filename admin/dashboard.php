@@ -19,12 +19,6 @@
 
 <head>
     <?php include('include/head.php') ?>
-    <script>
-      UPLOADCARE_LOCALE = "en";
-      UPLOADCARE_TABS = "file url";
-      UPLOADCARE_PUBLIC_KEY = "a4fcbce4f6985e0b0ddc";
-    </script>
-    <script charset="utf-8" src="//ucarecdn.com/libs/widget/2.10.3/uploadcare.full.min.js"></script>
 </head>
 
 <body>
