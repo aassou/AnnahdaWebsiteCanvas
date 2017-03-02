@@ -1,0 +1,2 @@
+RewriteEngine On
+RewriteRule ^portfolio/?$ portfolio.php [NC]
