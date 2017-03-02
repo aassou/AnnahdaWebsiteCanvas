@@ -142,15 +142,15 @@
             ?>
             <article class="portfolio-item pf-media pf-icons">
                 <div class="portfolio-image">
-                    <a href="/project/<?= $projet->id() ?>">
+                    <a href="/de/project/<?= $projet->id() ?>">
                         <?= $image ?>
                     </a>
                     <div class="portfolio-overlay">
-                        <a href="/project/<?= $projet->id() ?>" class="left-icon"><i class="icon-line-plus"></i></a>
+                        <a href="/de/project/<?= $projet->id() ?>" class="left-icon"><i class="icon-line-plus"></i></a>
                     </div>
                 </div>
                 <div class="portfolio-desc">
-                    <h3><a href="/project/<?= $projet->id() ?>"><?= $projet->name() ?></a></h3>
+                    <h3><a href="/de/project/<?= $projet->id() ?>"><?= $projet->name() ?></a></h3>
                 </div>
             </article>
             <?php

@@ -33,14 +33,14 @@
     <!-- Stylesheets
     ============================================= -->
     <link href="http://fonts.googleapis.com/css?family=Lato:300,400,400italic,600,700|Raleway:300,400,500,600,700|Crete+Round:400italic" rel="stylesheet" type="text/css" />
-    <link rel="stylesheet" href="../css/bootstrap.css" type="text/css" />
-    <link rel="stylesheet" href="../style.css" type="text/css" />
-    <link rel="stylesheet" href="../css/dark.css" type="text/css" />
-    <link rel="stylesheet" href="../css/font-icons.css" type="text/css" />
-    <link rel="stylesheet" href="../css/animate.css" type="text/css" />
-    <link rel="stylesheet" href="../css/magnific-popup.css" type="text/css" />
+    <link rel="stylesheet" href="/css/bootstrap.css" type="text/css" />
+    <link rel="stylesheet" href="/style.css" type="text/css" />
+    <link rel="stylesheet" href="/css/dark.css" type="text/css" />
+    <link rel="stylesheet" href="/css/font-icons.css" type="text/css" />
+    <link rel="stylesheet" href="/css/animate.css" type="text/css" />
+    <link rel="stylesheet" href="/css/magnific-popup.css" type="text/css" />
 
-    <link rel="stylesheet" href="../css/responsive.css" type="text/css" />
+    <link rel="stylesheet" href="/css/responsive.css" type="text/css" />
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
     <!--[if lt IE 9]>
         <script src="http://css3-mediaqueries-js.googlecode.com/svn/trunk/css3-mediaqueries.js"></script>
@@ -48,27 +48,12 @@
 
     <!-- External JavaScripts
     ============================================= -->
-    <script type="text/javascript" src="../js/jquery.js"></script>
-    <script type="text/javascript" src="../js/plugins.js"></script>
+    <script type="text/javascript" src="/js/jquery.js"></script>
+    <script type="text/javascript" src="/js/plugins.js"></script>
 
     <!-- Document Title
     ============================================= -->
     <title>Grupo Annahda | <?= $projet->name() ?></title>
-    <!-- Piwik -->
-    <script type="text/javascript">
-      var _paq = _paq || [];
-      _paq.push(['trackPageView']);
-      _paq.push(['enableLinkTracking']);
-      (function() {
-        var u="//costetics.esy.es/admin/piwik/";
-        _paq.push(['setTrackerUrl', u+'piwik.php']);
-        _paq.push(['setSiteId', 1]);
-        var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0];
-        g.type='text/javascript'; g.async=true; g.defer=true; g.src=u+'piwik.js'; s.parentNode.insertBefore(g,s);
-      })();
-    </script>
-    <noscript><p><img src="//costetics.esy.es/admin/piwik/piwik.php?idsite=1" style="border:0;" alt="" /></p></noscript>
-    <!-- End Piwik Code -->
 </head>
 
 <body class="stretched">
@@ -270,16 +255,16 @@
                         <div class="oc-item">
                             <div class="iportfolio">
                                 <div class="portfolio-image">
-                                    <a href="portfolio-single-gallery.php?idProjet=<?= $projet->id() ?>">
+                                    <a href="/es/project/<?= $projet->id() ?>">
                                         <?= $image ?>"
                                     </a>
                                     <div class="portfolio-overlay">
                                         <!--a href="images/portfolio/full/1.jpg" class="left-icon" data-lightbox="image"><i class="icon-line-plus"></i></a-->
-                                        <a href="portfolio-single-gallery.php?idProjet=<?= $projet->id() ?>" class="right-icon"><i class="icon-line-plus"></i></a>
+                                        <a href="/es/project/<?= $projet->id() ?>" class="right-icon"><i class="icon-line-plus"></i></a>
                                     </div>
                                 </div>
                                 <div class="portfolio-desc">
-                                    <h3><a href="portfolio-single-gallery.php?idProjet=<?= $projet->id() ?>">Residencia<?= $projet->name() ?></a></h3>
+                                    <h3><a href="/es/project/<?= $projet->id() ?>">Residencia<?= $projet->name() ?></a></h3>
                                     <!--span><a href="#">Media</a>, <a href="#">Icons</a></span-->
                                 </div>
                             </div>
@@ -493,6 +478,6 @@
 
     <!-- Footer Scripts
     ============================================= -->
-    <script type="text/javascript" src="../js/functions.js"></script>
+    <script type="text/javascript" src="/js/functions.js"></script>
 </body>
 </html>
