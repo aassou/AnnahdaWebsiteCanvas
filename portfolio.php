@@ -151,15 +151,15 @@
                         ?>
                         <article class="portfolio-item pf-media pf-icons">
                             <div class="portfolio-image">
-                                <a href="portfolio-single-gallery.php?idProjet=<?= $projet->id() ?>">
+                                <a href="/project/<?= $projet->id() ?>">
                                     <?= $image ?>
                                 </a>
                                 <div class="portfolio-overlay">
-                                    <a href="portfolio-single-gallery.php?idProjet=<?= $projet->id() ?>" class="left-icon"><i class="icon-line-plus"></i></a>
+                                    <a href="/project/<?= $projet->id() ?>" class="left-icon"><i class="icon-line-plus"></i></a>
                                 </div>
                             </div>
                             <div class="portfolio-desc">
-                                <h3><a href="portfolio-single-gallery.php?idProjet=<?= $projet->id() ?>"><?= $projet->name() ?></a></h3>
+                                <h3><a href="/project/<?= $projet->id() ?>"><?= $projet->name() ?></a></h3>
                                 <!--span><a href="#">Media</a>, <a href="#">Icons</a></span-->
                             </div>
                         </article>
