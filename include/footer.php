@@ -9,7 +9,7 @@
                         <!--img src="images/footer-widget-logo.png" alt="" class="footer-logo"-->
                         <p><strong>Groupe Annahda Lil Iaamar</strong> de Promotion Immobilière à Nador.</p>
 
-                        <div style="background: url('images/world-map.png') no-repeat center center; background-size: 100%;">
+                        <div style="background: url('/images/world-map.png') no-repeat center center; background-size: 100%;">
                             <address>
                                 <strong>Adresse:</strong><br>
                                 Quartier Ouled Brahim N°B-1 en face <br>

@@ -9,24 +9,24 @@
             <!-- Logo
             ============================================= -->
             <div id="logo">
-                <a href="index.php" class="standard-logo" data-dark-logo="images/logo-square.png"><img src="images/logo-square.png" alt="Groupe Annahda"></a>
-                <a href="index.php" class="retina-logo" data-dark-logo="images/logo-square.png"><img src="images/logo-square.png" alt="Groupe Annahda"></a>
+                <a href="index.php" class="standard-logo" data-dark-logo="/images/logo-square.png"><img src="/images/logo-square.png" alt="Groupe Annahda"></a>
+                <a href="index.php" class="retina-logo" data-dark-logo="/images/logo-square.png"><img src="/images/logo-square.png" alt="Groupe Annahda"></a>
             </div><!-- #logo end -->
             <!-- Primary Navigation
             ============================================= -->
             <nav id="primary-menu" class="dark">
                 <ul>
                     <li <?= ($currentPage == "index.php") ? 'class="current"' : '' ?> >
-                        <a href="/index.php" title="Français"><img src="images/icons/flags/french.png" /></a>
+                        <a href="/index.php" title="Français"><img src="/images/icons/flags/french.png" /></a>
                     </li>
                     <li <?= ($currentPage == "index.php") ? 'class="current"' : '' ?> >
-                        <a href="/de/index.php" title="Deutsch"><img src="images/icons/flags/german.png" /></a>
+                        <a href="/de/index.php" title="Deutsch"><img src="/images/icons/flags/german.png" /></a>
                     </li>
                     <li <?= ($currentPage == "index.php") ? 'class="current"' : '' ?> >
-                        <a href="/nl/index.php" title="Nederlands"><img src="images/icons/flags/netherlands.png" /></a>
+                        <a href="/nl/index.php" title="Nederlands"><img src="/images/icons/flags/netherlands.png" /></a>
                     </li>
                     <li <?= ($currentPage == "index.php") ? 'class="current"' : '' ?> >
-                        <a href="/es/index.php" title="Español"><img src="images/icons/flags/spain.png" /></a>
+                        <a href="/es/index.php" title="Español"><img src="/images/icons/flags/spain.png" /></a>
                     </li>
                     <li <?= ($currentPage == "index.php") ? 'class="current"' : '' ?> >
                         <a href="index.php"><div>Accueil</div></a>
