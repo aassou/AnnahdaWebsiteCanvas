@@ -1,0 +1,6 @@
+RewriteEngine On
+RewriteRule ^home/?$ index.php [NC]
+RewriteRule ^about/?$ about.php [NC]
+RewriteRule ^contact/?$ contact.php [NC]
+RewriteRule ^projects/?$ portfolio.php [NC]
+RewriteRule ^project/([0-9]+) portfolio-single-gallery.php?idProjet=$1 
