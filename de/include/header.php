@@ -16,29 +16,29 @@
             <nav id="primary-menu" class="dark">
                 <ul>
                     <li <?= ($currentPage == "index.php") ? 'class="current"' : '' ?> >
-                        <a href="/home" title="Français"><img src="../images/icons/flags/french.png" /></a>
+                        <a href="/home" title="Français"><img src="/images/icons/flags/french.png" /></a>
                     </li>
                     <li <?= ($currentPage == "index.php") ? 'class="current"' : '' ?> >
-                        <a href="/de/home" title="Deutsch"><img src="../images/icons/flags/german.png" /></a>
+                        <a href="/de/home" title="Deutsch"><img src="/images/icons/flags/german.png" /></a>
                     </li>
                     <li <?= ($currentPage == "index.php") ? 'class="current"' : '' ?> >
-                        <a href="/nl/home" title="Nederlands"><img src="../images/icons/flags/netherlands.png" /></a>
+                        <a href="/nl/home" title="Nederlands"><img src="/images/icons/flags/netherlands.png" /></a>
                     </li>
                     <li <?= ($currentPage == "index.php") ? 'class="current"' : '' ?> >
-                        <a href="/es/home" title="Español"><img src="../images/icons/flags/spain.png" /></a>
+                        <a href="/es/home" title="Español"><img src="/images/icons/flags/spain.png" /></a>
                     </li>
                     <li <?= ($currentPage == "index.php") ? 'class="current"' : '' ?> >
-                        <a href="/home"><div>Startseite</div></a>
+                        <a href="/de/home"><div>Startseite</div></a>
                     </li>
                     <li <?= ($currentPage == "portfolio.php" || $currentPage == "portfolio-single-gallery.php") ? 'class="current"' : '' ?> >
-                        <a href="/projects"><div>Unsere Projekte</div></a>
+                        <a href="/de/projects"><div>Unsere Projekte</div></a>
                     </li>
                     <!--li ><a href="#"><div>Notre Offre</div></a></li-->
                     <li <?= ($currentPage == "about.php") ? 'class="current"' : '' ?>>
-                        <a href="/about"><div>Über Annahda</div></a>
+                        <a href="/de/about"><div>Über Annahda</div></a>
                     </li>
                     <li <?= ($currentPage == "contact.php") ? 'class="current"' : '' ?>>
-                        <a href="/contact"><div>Kontakt</div></a>
+                        <a href="/de/contact"><div>Kontakt</div></a>
                     </li>
                 </ul>
             </nav><!-- #primary-menu end -->
