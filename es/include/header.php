@@ -16,16 +16,16 @@
             <nav id="primary-menu" class="dark">
                 <ul>
                     <li <?= ($currentPage == "index.php") ? 'class="current"' : '' ?> >
-                        <a href="/home" title="Français"><img src="../images/icons/flags/french.png" /></a>
+                        <a href="/home" title="Français"><img src="/images/icons/flags/french.png" /></a>
                     </li>
                     <li <?= ($currentPage == "index.php") ? 'class="current"' : '' ?> >
-                        <a href="/de/home" title="Deutsch"><img src="../images/icons/flags/german.png" /></a>
+                        <a href="/de/home" title="Deutsch"><img src="/images/icons/flags/german.png" /></a>
                     </li>
                     <li <?= ($currentPage == "index.php") ? 'class="current"' : '' ?> >
-                        <a href="/nl/home" title="Nederlands"><img src="../images/icons/flags/netherlands.png" /></a>
+                        <a href="/nl/home" title="Nederlands"><img src="/images/icons/flags/netherlands.png" /></a>
                     </li>
                     <li <?= ($currentPage == "index.php") ? 'class="current"' : '' ?> >
-                        <a href="/es/home" title="Español"><img src="../images/icons/flags/spain.png" /></a>
+                        <a href="/es/home" title="Español"><img src="/images/icons/flags/spain.png" /></a>
                     </li>
                     <li <?= ($currentPage == "index.php") ? 'class="current"' : '' ?> >
                         <a href="/es/home"><div>Inicio</div></a>

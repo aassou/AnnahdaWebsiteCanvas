@@ -54,21 +54,6 @@
     <!-- Document Title
     ============================================= -->
     <title>Groep Annahda | <?= $projet->name() ?></title>
-    <!-- Piwik -->
-    <script type="text/javascript">
-      var _paq = _paq || [];
-      _paq.push(['trackPageView']);
-      _paq.push(['enableLinkTracking']);
-      (function() {
-        var u="//costetics.esy.es/admin/piwik/";
-        _paq.push(['setTrackerUrl', u+'piwik.php']);
-        _paq.push(['setSiteId', 1]);
-        var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0];
-        g.type='text/javascript'; g.async=true; g.defer=true; g.src=u+'piwik.js'; s.parentNode.insertBefore(g,s);
-      })();
-    </script>
-    <noscript><p><img src="//costetics.esy.es/admin/piwik/piwik.php?idsite=1" style="border:0;" alt="" /></p></noscript>
-    <!-- End Piwik Code -->
 </head>
 
 <body class="stretched">
@@ -270,16 +255,16 @@
                         <div class="oc-item">
                             <div class="iportfolio">
                                 <div class="portfolio-image">
-                                    <a href="portfolio-single-gallery.php?idProjet=<?= $projet->id() ?>">
+                                    <a href="/nl/project/<?= $projet->id() ?>">
                                         <?= $image ?>"
                                     </a>
                                     <div class="portfolio-overlay">
                                         <!--a href="images/portfolio/full/1.jpg" class="left-icon" data-lightbox="image"><i class="icon-line-plus"></i></a-->
-                                        <a href="portfolio-single-gallery.php?idProjet=<?= $projet->id() ?>" class="right-icon"><i class="icon-line-plus"></i></a>
+                                        <a href="/nl/project/<?= $projet->id() ?>" class="right-icon"><i class="icon-line-plus"></i></a>
                                     </div>
                                 </div>
                                 <div class="portfolio-desc">
-                                    <h3><a href="portfolio-single-gallery.php?idProjet=<?= $projet->id() ?>">Residentie<?= $projet->name() ?></a></h3>
+                                    <h3><a href="/nl/project/<?= $projet->id() ?>">Residentie<?= $projet->name() ?></a></h3>
                                     <!--span><a href="#">Media</a>, <a href="#">Icons</a></span-->
                                 </div>
                             </div>
