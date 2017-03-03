@@ -59,7 +59,6 @@
                         <h3>Haute Qualité</h3>
                         <p>Notre société vous garantit un logement de haute qualité pour vous et votre famille.</p>
                     </div>
-
                     <div class="feature-box fbox-right topmargin" data-animate="fadeIn" data-delay="200">
                         <div class="fbox-icon">
                             <a href="#"><i class="icon-line-plus"></i></a>
@@ -67,15 +66,8 @@
                         <h3>Prix compétetifs</h3>
                         <p>Le groupe Annahda vous propose une gamme de biens immobiliers avec des prix compétitifs.</p>
                     </div>
-
                 </div>
-
-                <div class="col-md-4 hidden-sm bottommargin center">
-                    <!--img src="images/services/iphone7.png" alt="iphone 2"-->
-                </div>
-
                 <div class="col-md-4 col-sm-6 bottommargin">
-
                     <div class="feature-box topmargin" data-animate="fadeIn">
                         <div class="fbox-icon">
                             <a href="#"><i class="icon-line-heart"></i></a>
@@ -83,7 +75,6 @@
                         <h3>Finition</h3>
                         <p>Avec notre société vous pouvez choisir votre propre finition selon vos besoins.</p>
                     </div>
-
                     <div class="feature-box topmargin" data-animate="fadeIn" data-delay="200">
                         <div class="fbox-icon">
                             <a href="#"><i class="icon-dollar"></i></a>
@@ -91,13 +82,9 @@
                         <h3>Facilités de paiement</h3>
                         <p>Payer par mois, par trimestre ou par semestre ? Avec nos facilités de paiement vous êtes libre à choisir.</p>
                     </div>
-
                 </div>
-
             </div>
-
         </div>
-
         <div class="row clearfix bottommargin-lg common-height">
             <div class="col-md-3 col-sm-6 dark center col-padding" style="background-color: #88C3D8;">
                 <div>
@@ -131,7 +118,6 @@
                 </div>
             </div>
         </div>
-
         <div id="portfolio" class="portfolio-nomargin portfolio-notitle portfolio-full clearfix">
             <?php
             foreach ( $projets as $projet ) {
@@ -160,52 +146,18 @@
             <?php
             }
             ?>
-            
-
         </div>
-
-        <script type="text/javascript">
-
-            jQuery(window).load(function(){
-
-                var $container = $('#portfolio');
-
-                $container.isotope({
-                    transitionDuration: '0.65s',
-                    masonry: {
-                        columnWidth: $container.find('.portfolio-item:not(.wide)')[0]
-                    }
-                });
-
-                $('#page-menu a').click(function(){
-                    $('#page-menu li').removeClass('current');
-                    $(this).parent('li').addClass('current');
-                    var selector = $(this).attr('data-filter');
-                    $container.isotope({ filter: selector });
-                    return false;
-                });
-
-                $(window).resize(function() {
-                    $container.isotope('layout');
-                });
-
-            });
-
-        </script>
-
+        <script type="text/javascript">jQuery(window).load(function(){var $container = $('#portfolio');$container.isotope({transitionDuration: '0.65s',masonry: {columnWidth: $container.find('.portfolio-item:not(.wide)')[0]}});$('#page-menu a').click(function(){$('#page-menu li').removeClass('current');$(this).parent('li').addClass('current');var selector = $(this).attr('data-filter');$container.isotope({ filter: selector });return false;});$(window).resize(function() {$container.isotope('layout');});});</script>
         <div class="clear"></div>
-
-        <a href="portfolio.php" class="button button-full button-dark center tright bottommargin-lg">
+        <a href="/projects" class="button button-full button-dark center tright bottommargin-lg">
             <div class="container clearfix">
                 Voire tous les projets du Groupe Annahda. <strong>Cliquez ici</strong> <i class="icon-caret-right" style="top:4px;"></i>
             </div>
         </a>
         <div class="section parallax dark nobottommargin" style="background-image: url('images/holdinggroup2.jpg'); padding: 100px 0;" data-stellar-background-ratio="0.4">
-
             <div class="heading-block center">
                 <h3>Société Iaaza de construction</h3>
             </div>
-
             <div class="fslider testimonial testimonial-full" data-animation="fade" data-arrows="false">
                 <div class="flexslider">
                     <div class="slider-wrap">

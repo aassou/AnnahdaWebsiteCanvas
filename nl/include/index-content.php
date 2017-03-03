@@ -57,13 +57,7 @@
                         <h3>Concurrerende prijzen</h3>
                         <p>De groep Annahda heeft een aantal eigenschappen met concurrerende prijzen.</p>
                     </div>
-
                 </div>
-
-                <div class="col-md-4 hidden-sm bottommargin center">
-                    <!--img src="images/services/iphone7.png" alt="iphone 2"-->
-                </div>
-
                 <div class="col-md-4 col-sm-6 bottommargin">
                     <div class="feature-box topmargin" data-animate="fadeIn">
                         <div class="fbox-icon">
@@ -72,7 +66,6 @@
                         <h3>Afwerking</h3>
                         <p>Met ons bedrijf, kunt u uw eigen afwerking te kiezen zoals gewenst.</p>
                     </div>
-
                     <div class="feature-box topmargin" data-animate="fadeIn" data-delay="200">
                         <div class="fbox-icon">
                             <a href="#"><i class="icon-dollar"></i></a>
@@ -80,45 +73,35 @@
                         <h3>Betalingsmogelijkheden</h3>
                         <p>Betaalt maandelijks, per kwartaal of semi? Met onze betalingsopties bent u vrij om te kiezen.</p>
                     </div>
-
                 </div>
-
             </div>
-
         </div>
-
         <div class="row clearfix bottommargin-lg common-height">
-
-            <div class="col-md-3 col-sm-6 dark center col-padding" style="background-color: #515875;">
-                <div>
-                    <div class="counter counter-lined"><span data-from="1" data-to="13" data-refresh-interval="50" data-speed="4000"></span></div>
-                    <h3>Projecten</h3>
-                </div>
-            </div>
-
-            <div class="col-md-3 col-sm-6 dark center col-padding" style="background-color: #6697B9;">
-                <div>
-                    <div class="counter counter-lined"><span data-from="1" data-to="150" data-refresh-interval="25" data-speed="3500"></span></div>
-                    <h3>Tevreden klanten</h3>
-                </div>
-            </div>
-
-            <div class="col-md-3 col-sm-6 dark center col-padding" style="background-color: #576F9E;">
-                <div>
-                    <div class="counter counter-lined"><span data-from="1" data-to="260" data-refresh-interval="100" data-speed="3000"></span></div>
-                    <h3>Appartementen en commerciële ruimte</h3>
-                </div>
-            </div>
-
             <div class="col-md-3 col-sm-6 dark center col-padding" style="background-color: #88C3D8;">
                 <div>
-                    <div class="counter counter-lined"><span data-from="1" data-to="10" data-refresh-interval="5" data-speed="4500"></span> Jaar</div>
+                    <div class="counter counter-lined"><span data-from="1" data-to="7" data-refresh-interval="5" data-speed="4000"></span> ans</div>
                     <h3> Ervaring</h3>
                 </div>
             </div>
-
+            <div class="col-md-3 col-sm-6 dark center col-padding" style="background-color: #515875;">
+                <div>
+                    <div class="counter counter-lined"><span data-from="1" data-to="14" data-refresh-interval="50" data-speed="4000"></span></div>
+                    <h3>Projecten</h3>
+                </div>
+            </div>
+            <div class="col-md-3 col-sm-6 dark center col-padding" style="background-color: #6697B9;">
+                <div>
+                    <div class="counter counter-lined"><span data-from="1" data-to="275" data-refresh-interval="25" data-speed="3500"></span></div>
+                    <h3>Tevreden klanten</h3>
+                </div>
+            </div>
+            <div class="col-md-3 col-sm-6 dark center col-padding" style="background-color: #576F9E;">
+                <div>
+                    <div class="counter counter-lined"><span data-from="1" data-to="300" data-refresh-interval="100" data-speed="3000"></span></div>
+                    <h3>Appartementen en commerciële ruimte</h3>
+                </div>
+            </div>
         </div>
-
         <div class="section topmargin nobottommargin nobottomborder">
             <div class="container clearfix">
                 <div class="heading-block center nomargin">
@@ -126,7 +109,6 @@
                 </div>
             </div>
         </div>
-
         <div id="portfolio" class="portfolio-nomargin portfolio-notitle portfolio-full clearfix">
             <?php
             foreach ( $projets as $projet ) {
@@ -155,52 +137,18 @@
             <?php
             }
             ?>
-            
-
         </div>
-
-        <script type="text/javascript">
-
-            jQuery(window).load(function(){
-
-                var $container = $('#portfolio');
-
-                $container.isotope({
-                    transitionDuration: '0.65s',
-                    masonry: {
-                        columnWidth: $container.find('.portfolio-item:not(.wide)')[0]
-                    }
-                });
-
-                $('#page-menu a').click(function(){
-                    $('#page-menu li').removeClass('current');
-                    $(this).parent('li').addClass('current');
-                    var selector = $(this).attr('data-filter');
-                    $container.isotope({ filter: selector });
-                    return false;
-                });
-
-                $(window).resize(function() {
-                    $container.isotope('layout');
-                });
-
-            });
-
-        </script>
-
+        <script type="text/javascript">jQuery(window).load(function(){var $container = $('#portfolio');$container.isotope({transitionDuration: '0.65s',masonry: {columnWidth: $container.find('.portfolio-item:not(.wide)')[0]}});$('#page-menu a').click(function(){$('#page-menu li').removeClass('current');$(this).parent('li').addClass('current');var selector = $(this).attr('data-filter');$container.isotope({ filter: selector });return false;});$(window).resize(function() {$container.isotope('layout');});});</script>
         <div class="clear"></div>
-
-        <a href="portfolio.php" class="button button-full button-dark center tright bottommargin-lg">
+        <a href="/nl/projects" class="button button-full button-dark center tright bottommargin-lg">
             <div class="container clearfix">
                 Of alle Annahda Groep projecten. <Strong> Klik hier</strong> <i class="icon-caret-right" style="top:4px;"></i>
             </div>
         </a>
         <div class="section parallax dark nobottommargin" style="background-image: url('../images/holdinggroup2.jpg'); padding: 100px 0;" data-stellar-background-ratio="0.4">
-
             <div class="heading-block center">
                 <h3>Bouw Iaaza</h3>
             </div>
-
             <div class="fslider testimonial testimonial-full" data-animation="fade" data-arrows="false">
                 <div class="flexslider">
                     <div class="slider-wrap">

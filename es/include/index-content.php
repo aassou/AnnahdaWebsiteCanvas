@@ -50,7 +50,6 @@
                         <h3>Calidad alta</h3>
                         <p>Nuestra empresa garantiza un alojamiento de alta calidad para usted y su familia.</p>
                     </div>
-
                     <div class="feature-box fbox-right topmargin" data-animate="fadeIn" data-delay="200">
                         <div class="fbox-icon">
                             <a href="#"><i class="icon-line-plus"></i></a>
@@ -60,11 +59,6 @@
                     </div>
 
                 </div>
-
-                <div class="col-md-4 hidden-sm bottommargin center">
-                    <!--img src="images/services/iphone7.png" alt="iphone 2"-->
-                </div>
-
                 <div class="col-md-4 col-sm-6 bottommargin">
                     <div class="feature-box topmargin" data-animate="fadeIn">
                         <div class="fbox-icon">
@@ -73,7 +67,6 @@
                         <h3>Acabado</h3>
                         <p>Con nuestra empresa, puede elegir su propio acabado que se desee.</p>
                     </div>
-
                     <div class="feature-box topmargin" data-animate="fadeIn" data-delay="200">
                         <div class="fbox-icon">
                             <a href="#"><i class="icon-dollar"></i></a>
@@ -81,45 +74,35 @@
                         <h3>Opciones de pago</h3>
                         <p>Pagar mensual, trimestral o semi? Con nuestras opciones de pago que es libre de elegir.</p>
                     </div>
-
                 </div>
-
             </div>
-
         </div>
-
         <div class="row clearfix bottommargin-lg common-height">
-
+            <div class="col-md-3 col-sm-6 dark center col-padding" style="background-color: #88C3D8;">
+                <div>
+                    <div class="counter counter-lined"><span data-from="1" data-to="7" data-refresh-interval="5" data-speed="4000"></span> ans</div>
+                    <h3>de experiencia</h3>
+                </div>
+            </div>
             <div class="col-md-3 col-sm-6 dark center col-padding" style="background-color: #515875;">
                 <div>
-                    <div class="counter counter-lined"><span data-from="1" data-to="13" data-refresh-interval="50" data-speed="4000"></span></div>
+                    <div class="counter counter-lined"><span data-from="1" data-to="14" data-refresh-interval="50" data-speed="4000"></span></div>
                     <h3>Proyectos</h3>
                 </div>
             </div>
-
             <div class="col-md-3 col-sm-6 dark center col-padding" style="background-color: #6697B9;">
                 <div>
-                    <div class="counter counter-lined"><span data-from="1" data-to="150" data-refresh-interval="25" data-speed="3500"></span></div>
+                    <div class="counter counter-lined"><span data-from="1" data-to="275" data-refresh-interval="25" data-speed="3500"></span></div>
                     <h3>Clientes satisfechos</h3>
                 </div>
             </div>
-
             <div class="col-md-3 col-sm-6 dark center col-padding" style="background-color: #576F9E;">
                 <div>
-                    <div class="counter counter-lined"><span data-from="1" data-to="260" data-refresh-interval="100" data-speed="3000"></span></div>
+                    <div class="counter counter-lined"><span data-from="1" data-to="300" data-refresh-interval="100" data-speed="3000"></span></div>
                     <h3>Apartamentos y locales comerciales</h3>
                 </div>
             </div>
-
-            <div class="col-md-3 col-sm-6 dark center col-padding" style="background-color: #88C3D8;">
-                <div>
-                    <div class="counter counter-lined"><span data-from="1" data-to="10" data-refresh-interval="5" data-speed="4500"></span> años</div>
-                    <h3> de experiencia</h3>
-                </div>
-            </div>
-
         </div>
-
         <div class="section topmargin nobottommargin nobottomborder">
             <div class="container clearfix">
                 <div class="heading-block center nomargin">
@@ -127,7 +110,6 @@
                 </div>
             </div>
         </div>
-
         <div id="portfolio" class="portfolio-nomargin portfolio-notitle portfolio-full clearfix">
             <?php
             foreach ( $projets as $projet ) {
@@ -156,52 +138,18 @@
             <?php
             }
             ?>
-            
-
         </div>
-
-        <script type="text/javascript">
-
-            jQuery(window).load(function(){
-
-                var $container = $('#portfolio');
-
-                $container.isotope({
-                    transitionDuration: '0.65s',
-                    masonry: {
-                        columnWidth: $container.find('.portfolio-item:not(.wide)')[0]
-                    }
-                });
-
-                $('#page-menu a').click(function(){
-                    $('#page-menu li').removeClass('current');
-                    $(this).parent('li').addClass('current');
-                    var selector = $(this).attr('data-filter');
-                    $container.isotope({ filter: selector });
-                    return false;
-                });
-
-                $(window).resize(function() {
-                    $container.isotope('layout');
-                });
-
-            });
-
-        </script>
-
+        <script type="text/javascript">jQuery(window).load(function(){var $container = $('#portfolio');$container.isotope({transitionDuration: '0.65s',masonry: {columnWidth: $container.find('.portfolio-item:not(.wide)')[0]}});$('#page-menu a').click(function(){$('#page-menu li').removeClass('current');$(this).parent('li').addClass('current');var selector = $(this).attr('data-filter');$container.isotope({ filter: selector });return false;});$(window).resize(function() {$container.isotope('layout');});});</script>
         <div class="clear"></div>
-
-        <a href="portfolio.php" class="button button-full button-dark center tright bottommargin-lg">
+        <a href="/es/projects" class="button button-full button-dark center tright bottommargin-lg">
             <div class="container clearfix">
                 O todos los proyectos del Grupo Annahda. <Strong> Haga clic aquí</strong> <i class="icon-caret-right" style="top:4px;"></i>
             </div>
         </a>
         <div class="section parallax dark nobottommargin" style="background-image: url('../images/holdinggroup2.jpg'); padding: 100px 0;" data-stellar-background-ratio="0.4">
-
             <div class="heading-block center">
                 <h3>Iaaza compañía de construcción</h3>
             </div>
-
             <div class="fslider testimonial testimonial-full" data-animation="fade" data-arrows="false">
                 <div class="flexslider">
                     <div class="slider-wrap">
