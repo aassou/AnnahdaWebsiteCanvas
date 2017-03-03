@@ -6507,7 +6507,7 @@ body:not(.device-xs):not(.device-xxs) .countdown.countdown-large.coming-soon .co
 	font-size: 14px;
 	height: 40px;
 	line-height: 40px;
-	background-color: #1ABC9C;
+	background-color: #8a6d3b;
 	color: #FFF;
 	font-weight: 600;
 	text-transform: uppercase;
@@ -6679,7 +6679,7 @@ body:not(.device-touch) .button {
 }
 
 .button.button-3d:hover {
-	background-color: #1ABC9C !important;
+	background-color: #8A6D3B !important;
 	opacity: 0.9;
 }
 
@@ -7362,7 +7362,7 @@ body:not(.device-touch) .button.button-full strong {
 .feature-box.fbox-plain .fbox-icon img {
 	border: none !important;
 	background-color: transparent !important;
-	color: #1ABC9C;
+	color: #8a6d3b;
 	border-radius: 0;
 }
 

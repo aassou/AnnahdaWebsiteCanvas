@@ -52,7 +52,6 @@
                                 <input type="text" id="template-contactform-phone" name="template-contactform-phone" value="" class="sm-form-control" />
                             </div>
                             <div class="clear"></div>
-                            <div class="clear"></div>
                             <div class="col_full">
                                 <label for="template-contactform-message">Nachricht <small>*</small></label>
                                 <textarea class="required sm-form-control" id="template-contactform-message" name="template-contactform-message" rows="6" cols="30"></textarea>
