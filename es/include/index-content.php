@@ -57,7 +57,8 @@
                         <h3>Precios competitivos</h3>
                         <p>El grupo Annahda tiene una serie de propiedades con precios competitivos.</p>
                     </div>
-
+                </div>
+                <div class="col-md-4 col-sm-6 bottommargin">
                 </div>
                 <div class="col-md-4 col-sm-6 bottommargin">
                     <div class="feature-box topmargin" data-animate="fadeIn">
