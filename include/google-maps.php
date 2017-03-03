@@ -1,0 +1,4 @@
+<section id="google-map" class="gmap" style="height: 410px;"></section>
+<script type="text/javascript" src="http://maps.google.com/maps/api/js?key=AIzaSyC2jAi3XOvfBxzs90ako76GMQIcM9lIdgo&sensor=false"></script>
+<script type="text/javascript" src="/js/jquery.gmap.js"></script>
+<script type="text/javascript">jQuery('#google-map').gMap({maptype: 'ROADMAP',zoom: 16,markers: [{latitude: 35.160871,longitude: -2.930145,html: '<div style="width: 300px;"><h4 style="margin-bottom: 8px;">Ici <span>Groupe Annahda</span></h4><p class="nobottommargin"><strong>Adresse:</strong>Quartier Ouled Brahim N°B-1 en face Lycée Nador Jadid (Anaanaa), Nador.</p></div>',icon: {image: "images/icons/map-icon-red.png",iconsize: [32, 39],iconanchor: [32,39]}}],doubleclickzoom: false,controls: {panControl: true,zoomControl: true,mapTypeControl: true,scaleControl: false,streetViewControl: false,overviewMapControl: false}});</script>

@@ -148,59 +148,12 @@
 
                         </script>
 
-                    </div><!-- Contact Form End -->
-
-                    <!-- Google Map
-                    ============================================= -->
+                    </div>
                     <div class="col_half col_last">
-
-                        <section id="google-map" class="gmap" style="height: 410px;"></section>
-
-                        <script type="text/javascript" src="http://maps.google.com/maps/api/js?key=AIzaSyC2jAi3XOvfBxzs90ako76GMQIcM9lIdgo&sensor=false"></script>
-                        <script type="text/javascript" src="/js/jquery.gmap.js"></script>
-
-                        <script type="text/javascript">
-
-                            jQuery('#google-map').gMap({
-
-                                //address: 'Nador, Maroc',
-                                maptype: 'ROADMAP',
-                                zoom: 16,
-                                markers: [
-                                    {
-                                        //address: "Nador, Maroc",
-                                        latitude: 35.160871, 
-                                        longitude: -2.930145, 
-                                        html: '<div style="width: 300px;"><h4 style="margin-bottom: 8px;">Ici <span>Groupe Annahda</span></h4><p class="nobottommargin"><strong>Adresse:</strong>Quartier Ouled Brahim N°B-1 en face Lycée Nador Jadid (Anaanaa), Nador.</p></div>',
-                                        icon: {
-                                            image: "images/icons/map-icon-red.png",
-                                            iconsize: [32, 39],
-                                            iconanchor: [32,39]
-                                        }
-                                    }
-                                ],
-                                doubleclickzoom: false,
-                                controls: {
-                                    panControl: true,
-                                    zoomControl: true,
-                                    mapTypeControl: true,
-                                    scaleControl: false,
-                                    streetViewControl: false,
-                                    overviewMapControl: false
-                                }
-
-                            });
-
-                        </script>
-
-                    </div><!-- Google Map End -->
-
+                        <?php include('/include/google-maps.php'); ?>
+                    </div>
                     <div class="clear"></div>
-
-                    <!-- Contact Info
-                    ============================================= -->
                     <div class="row clear-bottommargin">
-
                         <div class="col-md-3 col-sm-6 bottommargin clearfix">
                             <div class="feature-box fbox-center fbox-bg fbox-plain">
                                 <div class="fbox-icon">
@@ -209,7 +162,6 @@
                                 <h3>Adresse<span class="subtitle">Ouled Brahim B1 Nador</span></h3>
                             </div>
                         </div>
-
                         <div class="col-md-3 col-sm-6 bottommargin clearfix">
                             <div class="feature-box fbox-center fbox-bg fbox-plain">
                                 <div class="fbox-icon">
@@ -218,7 +170,6 @@
                                 <h3>Anruf <span class="subtitle">(00212) 05 36 33 10 31</span></h3>
                             </div>
                         </div>
-
                         <div class="col-md-3 col-sm-6 bottommargin clearfix">
                             <div class="feature-box fbox-center fbox-bg fbox-plain">
                                 <div class="fbox-icon">
@@ -227,7 +178,6 @@
                                 <h3>Rufen Sie uns Skype<span class="subtitle">GroupeAnnahda</span></h3>
                             </div>
                         </div>
-
                         <div class="col-md-3 col-sm-6 bottommargin clearfix">
                             <div class="feature-box fbox-center fbox-bg fbox-plain">
                                 <div class="fbox-icon">
@@ -236,28 +186,13 @@
                                 <h3>Facebook -Seite<span class="subtitle">1300 Gleichen</span></h3>
                             </div>
                         </div>
-
-                    </div><!-- Contact Info End -->
-
+                    </div>
                 </div>
-
             </div>
-
-        </section><!-- #content end -->
-
-        <!-- Footer
-        ============================================= -->
+        </section>
         <?php include('include/footer.php'); ?>
-        <!-- #footer end -->
-
-    </div><!-- #wrapper end -->
-
-    <!-- Go To Top
-    ============================================= -->
+    </div>
     <div id="gotoTop" class="icon-angle-up"></div>
-
-    <!-- Footer Scripts
-    ============================================= -->
-    <script type="text/javascript" src="../js/functions.js"></script>
+    <script type="text/javascript" src="/js/functions.js"></script>
 </body>
 </html>
