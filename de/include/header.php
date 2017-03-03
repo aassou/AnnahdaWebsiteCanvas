@@ -1,18 +1,12 @@
-<?php
-    $currentPage = basename($_SERVER['PHP_SELF']);
-?>
+<?php $currentPage = basename($_SERVER['PHP_SELF']); ?>
 <header id="header" class="full-header" data-sticky-class="not-dark">
     <div id="header-wrap">
         <div class="container clearfix">
             <div id="primary-menu-trigger"><i class="icon-reorder"></i></div>
-            <!-- Logo
-            ============================================= -->
             <div id="logo">
                 <a href="index.php" class="standard-logo" data-dark-logo="images/logo-little.png"><img src="/images/logo-little.png" alt="Groupe Annahda"></a>
                 <a href="index.php" class="retina-logo" data-dark-logo="images/logo-little.png"><img src="/images/logo-little.png" alt="Groupe Annahda"></a>
-            </div><!-- #logo end -->
-            <!-- Primary Navigation
-            ============================================= -->
+            </div>
             <nav id="primary-menu" class="dark">
                 <ul>
                     <li <?= ($currentPage == "index.php") ? 'class="current"' : '' ?> >
@@ -33,7 +27,6 @@
                     <li <?= ($currentPage == "portfolio.php" || $currentPage == "portfolio-single-gallery.php") ? 'class="current"' : '' ?> >
                         <a href="/de/projects"><div>Unsere Projekte</div></a>
                     </li>
-                    <!--li ><a href="#"><div>Notre Offre</div></a></li-->
                     <li <?= ($currentPage == "about.php") ? 'class="current"' : '' ?>>
                         <a href="/de/about"><div>Über Annahda</div></a>
                     </li>
@@ -41,7 +34,7 @@
                         <a href="/de/contact"><div>Kontakt</div></a>
                     </li>
                 </ul>
-            </nav><!-- #primary-menu end -->
+            </nav>
         </div>
     </div>
 </header>

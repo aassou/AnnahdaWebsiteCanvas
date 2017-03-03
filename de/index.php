@@ -27,9 +27,7 @@
 <html dir="ltr" lang="en-US">
 <head>
     <meta http-equiv="content-type" content="text/html; charset=utf-8" />
-    <meta name="author" content="SemiColonWeb" />
-    <!-- Stylesheets
-    ============================================= -->
+    <meta name="author" content="Groupe Annahda Lil Iaamar" />
     <link href="http://fonts.googleapis.com/css?family=Lato:300,400,400italic,600,700|Raleway:300,400,500,600,700|Crete+Round:400italic" rel="stylesheet" type="text/css" />
     <link rel="stylesheet" href="../css/bootstrap.css" type="text/css" />
     <link rel="stylesheet" href="../style.css" type="text/css" />
@@ -42,36 +40,14 @@
     <!--[if lt IE 9]>
         <script src="http://css3-mediaqueries-js.googlecode.com/svn/trunk/css3-mediaqueries.js"></script>
     <![endif]-->
-    <!-- External JavaScripts
-    ============================================= -->
     <script type="text/javascript" src="../js/jquery.js"></script>
     <script type="text/javascript" src="../js/plugins.js"></script>
-    <!-- Document Title
-    ============================================= -->
     <title>Gruppe Annahda</title>
 </head>
 <body class="stretched">
-    <!-- Document Wrapper
-    ============================================= -->
     <div id="wrapper" class="clearfix">
-        <!-- Header
-        ============================================= -->
-        <?php
-            include("include/header.php"); 
-        ?>
-        <!-- #header end -->
-        <!-- #slider begin -->
-        <?php 
-        if ( $config->sliderType() == 1 ) {
-            include("../include/slider-video.php");
-        }
-        else {
-            include("../include/slider-images.php");
-        }     
-        ?>
-        <!-- #slider end -->
-        <!-- Content
-        ============================================= -->
+        <?php include("include/header.php"); ?>
+        <?php if ( $config->sliderType() == 1 ) { include("../include/slider-video.php"); } else { include("../include/slider-images.php");} ?>
         <?php
         //if the value of indexContent is 0, this means that our page index is composed of slider and content
         if ( $config->indexContent() == 0 ) {
@@ -82,19 +58,11 @@
             include('include/index-content-min.php');
         }
         ?>
-        <!-- #content end -->
-        <!-- Footer
-        ============================================= -->
         <?php
         include('include/footer.php');
         ?>
-        <!-- #footer end -->
-    </div><!-- #wrapper end -->
-    <!-- Go To Top
-    ============================================= -->
+    </div>
     <div id="gotoTop" class="icon-angle-up"></div>
-    <!-- Footer Scripts
-    ============================================= -->
     <script type="text/javascript" src="../js/functions.js"></script>
 </body>
 </html>

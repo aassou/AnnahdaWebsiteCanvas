@@ -1,7 +1,5 @@
 <footer id="footer" class="dark">
     <div class="container">
-        <!-- Footer Widgets
-        ============================================= -->
         <div class="footer-widgets-wrap clearfix">
             <div class="col_full">
                 <div class="col_two_third">
@@ -71,10 +69,8 @@
                     </div>
                 </div>
             </div>
-        </div><!-- .footer-widgets-wrap end -->
+        </div>
     </div>
-    <!-- Copyrights
-    ============================================= -->
     <div id="copyrights">
         <div class="container clearfix">
             <div class="col_half">
@@ -96,5 +92,5 @@
                 <i class="icon-envelope2"></i> groupe_annahda@gmail.com <span class="middot">&middot;</span> <i class="icon-headphones"></i> Groupe_Annahda <span class="middot">&middot;</span> <i class="icon-skype2"></i> GroupeAnnahda ons Skype
             </div>
         </div>
-    </div><!-- #copyrights end -->
+    </div>
 </footer>

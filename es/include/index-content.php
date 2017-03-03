@@ -80,7 +80,7 @@
         <div class="row clearfix bottommargin-lg common-height">
             <div class="col-md-3 col-sm-6 dark center col-padding" style="background-color: #88C3D8;">
                 <div>
-                    <div class="counter counter-lined"><span data-from="1" data-to="7" data-refresh-interval="5" data-speed="4000"></span> ans</div>
+                    <div class="counter counter-lined"><span data-from="1" data-to="7" data-refresh-interval="5" data-speed="4000"></span> años</div>
                     <h3>de experiencia</h3>
                 </div>
             </div>

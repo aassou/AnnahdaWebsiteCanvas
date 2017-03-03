@@ -28,8 +28,6 @@
 <head>
     <meta http-equiv="content-type" content="text/html; charset=utf-8" />
     <meta name="author" content="Groupe Annahda Lil Iaamar" />
-    <!-- Stylesheets
-    ============================================= -->
     <link href="http://fonts.googleapis.com/css?family=Lato:300,400,400italic,600,700|Raleway:300,400,500,600,700|Crete+Round:400italic" rel="stylesheet" type="text/css" />
     <link rel="stylesheet" href="/css/bootstrap.css" type="text/css" />
     <link rel="stylesheet" href="/style.css" type="text/css" />
@@ -42,40 +40,20 @@
     <!--[if lt IE 9]>
         <script src="http://css3-mediaqueries-js.googlecode.com/svn/trunk/css3-mediaqueries.js"></script>
     <![endif]-->
-    <!-- External JavaScripts
-    ============================================= -->
     <script type="text/javascript" src="/js/jquery.js"></script>
     <script type="text/javascript" src="/js/plugins.js"></script>
-    <!-- Document Title
-    ============================================= -->
     <title>Groupe Annahda | <?= $projet->name() ?></title>
 </head>
 <body class="stretched">
-    <!-- Document Wrapper
-    ============================================= -->
     <div id="wrapper" class="clearfix">
-        <!-- Header
-        ============================================= -->
         <?php include('include/header.php'); ?>
-        <!-- #header end -->
-        <!-- Page Title
-        ============================================= -->
         <section id="page-title">
             <div class="container clearfix">
                 <h1><?= $projet->name() ?></h1>
-                <!--div id="portfolio-navigation">
-                    <a href="#"><i class="icon-angle-left"></i></a>
-                    <a href="#"><i class="icon-line-grid"></i></a>
-                    <a href="#"><i class="icon-angle-right"></i></a>
-                </div-->
             </div>
-        </section><!-- #page-title end -->
-        <!-- Content
-        ============================================= -->
+        </section>
         <section id="content">
             <div class="content-wrap">
-                <!-- Portfolio Single Gallery
-                ============================================= -->
                 <div class="container clearfix">
                     <div class="col_two_third portfolio-single-image nobottommargin">
                         <div class="fslider" data-arrows="false" data-thumbs="true" data-animation="fade">
@@ -93,17 +71,12 @@
                                 </div>
                             </div>
                         </div>
-                    </div><!-- .portfolio-single-image end -->
-                    <!-- Portfolio Single Content
-                    ============================================= -->
+                    </div>
                     <div class="col_one_third portfolio-single-content col_last nobottommargin">
-                        <!-- Portfolio Single - Description
-                        ============================================= -->
                         <div class="fancy-title title-bottom-border">
                             <h2>Description:</h2>
                         </div>
                         <p><?= $projet->description() ?></p>
-                        <!-- Portfolio Single - Description End -->
                         <ul class="skills">
                             <li data-percent="<?= $projet->avancementConstruction() ?>">
                                 <span>Gros Oeuvre</span>
@@ -119,17 +92,11 @@
                             </li>
                         </ul>
                         <div class="line"></div>
-                        <!-- Portfolio Single - Meta
-                        ============================================= -->
                         <ul class="portfolio-meta bottommargin">
                             <li><span><i class="icon-user"></i>Crée par</span> Groupe Annahda</li>
                             <li><span><i class="icon-calendar3"></i>Début Travaux</span> <?= date('d/m/Y', strtotime($projet->dateCreation())) ?></li>
                             <li><span><i class="icon-map-marker2"></i>Adresse</span> <a><?= $projet->adresse() ?></a></li>
                         </ul>
-                        <!-- Portfolio Single - Meta End -->
-
-                        <!-- Portfolio Single - Share
-                        ============================================= -->
                         <div class="si-share clearfix">
                             <span>Partager sur:</span>
                             <div>
@@ -139,8 +106,7 @@
                                 </a>
                             </div>
                         </div>
-                        <!-- Portfolio Single - Share End -->
-                    </div><!-- .portfolio-single-content end -->
+                    </div>
                     <div class="clear"></div>
                     <div class="divider divider-center"><i class="icon-circle"></i></div>
                     <h1>Videos</h1>
@@ -174,8 +140,6 @@
                     </div>
                     <div class="clear"></div>
                     <div class="divider divider-center"><i class="icon-circle"></i></div>
-                    <!-- Related Portfolio Items
-                    ============================================= -->
                     <h4>Projets similaires:</h4>
                     <div id="related-portfolio" class="owl-carousel portfolio-carousel">
                         <?php
@@ -209,21 +173,14 @@
                         <?php
                         } 
                         ?>
-                    </div><!-- .portfolio-carousel end -->
+                    </div>
                     <script type="text/javascript">jQuery(document).ready(function($) {var relatedPortfolio = $("#related-portfolio");relatedPortfolio.owlCarousel({margin: 30,nav: true,dots:false,navText: ['<i class="icon-angle-left"></i>','<i class="icon-angle-right"></i>'],autoplay: true,autoplayHoverPause: true,responsive:{0:{ items:1 },480:{ items:2 },768:{ items:3 },992: { items:4 }}});});</script>
                 </div>
             </div>
-        </section><!-- #content end -->
-        <!-- Footer
-        ============================================= -->
+        </section>
         <?php include('include/footer.php'); ?>
-        <!-- #footer end -->
-    </div><!-- #wrapper end -->
-    <!-- Go To Top
-    ============================================= -->
+    </div>
     <div id="gotoTop" class="icon-angle-up"></div>
-    <!-- Footer Scripts
-    ============================================= -->
     <script type="text/javascript" src="/js/functions.js"></script>
 </body>
 </html>

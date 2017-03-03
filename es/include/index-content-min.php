@@ -36,35 +36,9 @@
             }
             ?>
         </div>
-        <script type="text/javascript">
-
-            jQuery(window).load(function(){
-
-                var $container = $('#portfolio');
-
-                $container.isotope({
-                    transitionDuration: '0.65s',
-                    masonry: {
-                        columnWidth: $container.find('.portfolio-item:not(.wide)')[0]
-                    }
-                });
-
-                $('#page-menu a').click(function(){
-                    $('#page-menu li').removeClass('current');
-                    $(this).parent('li').addClass('current');
-                    var selector = $(this).attr('data-filter');
-                    $container.isotope({ filter: selector });
-                    return false;
-                });
-
-                $(window).resize(function() {
-                    $container.isotope('layout');
-                });
-
-            });
-        </script>
+        <script type="text/javascript">jQuery(window).load(function(){var $container = $('#portfolio');$container.isotope({transitionDuration: '0.65s',masonry: {columnWidth: $container.find('.portfolio-item:not(.wide)')[0]}});$('#page-menu a').click(function(){$('#page-menu li').removeClass('current');$(this).parent('li').addClass('current');var selector = $(this).attr('data-filter');$container.isotope({ filter: selector });return false;});$(window).resize(function() {$container.isotope('layout');});});</script>
         <div class="clear"></div>
-        <a href="portfolio.php" class="button button-full button-dark center tright bottommargin-lg">
+        <a href="/es/projects" class="button button-full button-dark center tright bottommargin-lg">
             <div class="container clearfix">
                 O todos los proyectos del Grupo Annahda. <Strong> Haga clic aquí</strong> <i class="icon-caret-right" style="top:4px;"></i>
             </div>

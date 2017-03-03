@@ -1,7 +1,5 @@
 <footer id="footer" class="dark">
     <div class="container">
-        <!-- Footer Widgets
-        ============================================= -->
         <div class="footer-widgets-wrap clearfix">
             <div class="col_full">
                 <div class="col_two_third">
@@ -71,14 +69,12 @@
                     </div>
                 </div>
             </div>
-        </div><!-- .footer-widgets-wrap end -->
+        </div>
     </div>
-    <!-- Copyrights
-    ============================================= -->
     <div id="copyrights">
         <div class="container clearfix">
             <div class="col_half">
-                Alle Rechte vorbehalten für das Unternehmen Groupe Annahda Lil Iaamar &copy; 2016.<br>
+                Alle Rechte vorbehalten für das Unternehmen Groupe Annahda Lil Iaamar &copy; <?= date('Y') ?>.<br>
                 <div class="copyright-links"><a href="http://goo.gl/eLJ2Bg">Nutzungsrechte</a> / <a href="http://goo.gl/eLJ2Bg">Datenschutz</a></div>
             </div>
             <div class="col_half col_last tright">
@@ -96,5 +92,5 @@
                 <i class="icon-envelope2"></i> groupe_annahda@gmail.com <span class="middot">&middot;</span> <i class="icon-headphones"></i> Groupe_Annahda <span class="middot">&middot;</span> <i class="icon-skype2"></i> GroupeAnnahda uns Skype
             </div>
         </div>
-    </div><!-- #copyrights end -->
+    </div>
 </footer>

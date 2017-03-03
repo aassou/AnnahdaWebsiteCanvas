@@ -19,7 +19,6 @@
     <script type="text/javascript" src="../js/plugins.js"></script>
     <title>Gruppe Annahda | Kontakt</title>
 </head>
-
 <body class="stretched">
     <div id="wrapper" class="clearfix">
         <?php include('include/header.php'); ?>
