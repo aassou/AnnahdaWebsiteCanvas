@@ -2,15 +2,15 @@
 <html dir="ltr" lang="en-US">
 <head>
     <meta http-equiv="content-type" content="text/html; charset=utf-8" />
-    <meta name="author" content="SemiColonWeb" />
+    <meta name="author" content="Groupe Annahda Lil Iaamar" />
     <link href="http://fonts.googleapis.com/css?family=Lato:300,400,400italic,600,700|Raleway:300,400,500,600,700|Crete+Round:400italic" rel="stylesheet" type="text/css" />
-    <link rel="stylesheet" href="/css/bootstrap.css" type="text/css" />
-    <link rel="stylesheet" href="/style.css" type="text/css" />
-    <link rel="stylesheet" href="/css/dark.css" type="text/css" />
-    <link rel="stylesheet" href="/css/font-icons.css" type="text/css" />
-    <link rel="stylesheet" href="/css/animate.css" type="text/css" />
-    <link rel="stylesheet" href="/css/magnific-popup.css" type="text/css" />
-    <link rel="stylesheet" href="/css/responsive.css" type="text/css" />
+    <link rel="stylesheet" href="../css/bootstrap.css" type="text/css" />
+    <link rel="stylesheet" href="../style.css" type="text/css" />
+    <link rel="stylesheet" href="../css/dark.css" type="text/css" />
+    <link rel="stylesheet" href="../css/font-icons.css" type="text/css" />
+    <link rel="stylesheet" href="../css/animate.css" type="text/css" />
+    <link rel="stylesheet" href="../css/magnific-popup.css" type="text/css" />
+    <link rel="stylesheet" href="../css/responsive.css" type="text/css" />
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
     <!--[if lt IE 9]>
         <script src="http://css3-mediaqueries-js.googlecode.com/svn/trunk/css3-mediaqueries.js"></script>
@@ -66,10 +66,7 @@
                         <script type="text/javascript">$("#template-contactform").validate({submitHandler: function(form) {$('.form-process').fadeIn();$(form).ajaxSubmit({target: '#contact-form-result',success: function() {$('.form-process').fadeOut();$('#template-contactform').find('.sm-form-control').val('');$('#contact-form-result').attr('data-notify-msg', $('#contact-form-result').html()).html('');SEMICOLON.widget.notifications($('#contact-form-result'));}});}});</script>
                     </div>
                     <div class="col_half col_last">
-                        <section id="google-map" class="gmap" style="height: 410px;"></section>
-                        <script type="text/javascript" src="http://maps.google.com/maps/api/js?key=AIzaSyC2jAi3XOvfBxzs90ako76GMQIcM9lIdgo&sensor=false"></script>
-                        <script type="text/javascript" src="/js/jquery.gmap.js"></script>
-                        <script type="text/javascript">jQuery('#google-map').gMap({maptype: 'ROADMAP',zoom: 16,markers: [{latitude: 35.160871,longitude: -2.930145,html: '<div style="width: 300px;"><h4 style="margin-bottom: 8px;">Ici <span>Groupe Annahda</span></h4><p class="nobottommargin"><strong>Adresse:</strong>Quartier Ouled Brahim N°B-1 en face Lycée Nador Jadid (Anaanaa), Nador.</p></div>',icon: {image: "images/icons/map-icon-red.png",iconsize: [32, 39],iconanchor: [32,39]}}],doubleclickzoom: false,controls: {panControl: true,zoomControl: true,mapTypeControl: true,scaleControl: false,streetViewControl: false,overviewMapControl: false}});</script>
+                        <?php include('../include/google-maps.php'); ?>
                     </div>
                     <div class="clear"></div>
                     <div class="row clear-bottommargin">
@@ -112,6 +109,6 @@
         <?php include('include/footer.php'); ?>
     </div>
     <div id="gotoTop" class="icon-angle-up"></div>
-    <script type="text/javascript" src="/js/functions.js"></script>
+    <script type="text/javascript" src="../js/functions.js"></script>
 </body>
 </html>
