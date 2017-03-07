@@ -124,10 +124,10 @@
                 $image = "";
                 if ( $imageManager->getImageNumberByIdProjet($projet->id()) >= 1 ) {
                     $image = $imageManager->getFirstImageByIdProjet($projet->id());
-                    $image = '<img src="'.$image->url().'" />';    
+                    $image = '<img style="height:100px;width:100px" src="'.$image->url().'" />';    
                 }
                 else {
-                    $image = '<img src="images/logo_white.jpg" />'; 
+                    $image = '<img style="height:100px;width:100px" src="images/logo_white.jpg" />'; 
                 }
             ?>
             <article class="portfolio-item pf-media pf-icons">
