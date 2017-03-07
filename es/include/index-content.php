@@ -133,7 +133,7 @@
                     </div>
                 </div>
                 <div class="portfolio-desc">
-                    <h3><a href="/es/project/<?= $projet->id() ?>"><?= $projet->name() ?></a></h3>
+                    <h3><a href="/es/project/<?= $projet->id() ?>">Residencia <?= $projet->name() ?></a></h3>
                 </div>
             </article>
             <?php

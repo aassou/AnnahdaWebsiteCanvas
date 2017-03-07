@@ -29,7 +29,7 @@
                     </div>
                 </div>
                 <div class="portfolio-desc">
-                    <h3><a href="/project/<?= $projet->id() ?>"><?= $projet->name() ?></a></h3>
+                    <h3><a href="/project/<?= $projet->id() ?>">Résidence <?= $projet->name() ?></a></h3>
                 </div>
             </article>
             <?php
