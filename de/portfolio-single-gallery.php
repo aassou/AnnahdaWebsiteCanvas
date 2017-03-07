@@ -169,7 +169,7 @@
                                     </div>
                                 </div>
                                 <div class="portfolio-desc">
-                                    <h3><a href="/project/<?= $projet->id() ?>">Residenz<?= $projet->name() ?></a></h3>
+                                    <h3><a href="/project/<?= $projet->id() ?>">Residenz <?= $projet->name() ?></a></h3>
                                     <!--span><a href="#">Media</a>, <a href="#">Icons</a></span-->
                                 </div>
                             </div>
