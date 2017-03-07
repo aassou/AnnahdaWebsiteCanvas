@@ -131,8 +131,8 @@
                 }
             ?>
             <article class="portfolio-item pf-media pf-icons">
-                <div class="portfolio-image">
-                    <a href="/project/<?= $projet->id() ?>" style="height:276px;width:260px">
+                <div class="portfolio-image" style="height:276px;width:260px">
+                    <a href="/project/<?= $projet->id() ?>">
                         <?= $image ?>
                     </a>
                     <div class="portfolio-overlay">
