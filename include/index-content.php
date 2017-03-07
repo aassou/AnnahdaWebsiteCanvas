@@ -124,13 +124,13 @@
                 $image = "";
                 if ( $imageManager->getImageNumberByIdProjet($projet->id()) >= 1 ) {
                     $image = $imageManager->getFirstImageByIdProjet($projet->id());
-                    $image = '<img style="height:100px;width:100px" src="'.$image->url().'" />';    
+                    $image = '<img src="'.$image->url().'" />';    
                 }
                 else {
-                    $image = '<img style="height:100px;width:100px" src="images/logo_white.jpg" />'; 
+                    $image = '<img src="images/logo_white.jpg" />'; 
                 }
             ?>
-            <article class="portfolio-item pf-media pf-icons">
+            <article class="portfolio-item pf-media pf-icons" style="height:276px;width:260px">
                 <div class="portfolio-image">
                     <a href="/project/<?= $projet->id() ?>">
                         <?= $image ?>
