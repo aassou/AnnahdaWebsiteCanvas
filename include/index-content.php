@@ -130,7 +130,7 @@
                     $image = '<img src="images/logo_white.jpg" />'; 
                 }
             ?>
-            <article class="portfolio-item pf-media pf-icons" style="height:276px;width:260px">
+            <article class="portfolio-item pf-media pf-icons">
                 <div class="portfolio-image">
                     <a href="/project/<?= $projet->id() ?>">
                         <?= $image ?>
