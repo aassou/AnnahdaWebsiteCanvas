@@ -117,7 +117,7 @@
                 $image = "";
                 if ( $imageManager->getImageNumberByIdProjet($projet->id()) >= 1 ) {
                     $image = $imageManager->getFirstImageByIdProjet($projet->id());
-                    $image = '<img src="'.$image->url().'" />';    
+                    $image = '<img src="'.$image->url().'-/resize/276x260/" />';    
                 }
                 else {
                     $image = '<img src="/images/logo_white.jpg" />'; 
