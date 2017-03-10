@@ -68,6 +68,8 @@
                     </div>
                 </div>
                 <div class="col-md-4 col-sm-6 bottommargin">
+                </div>
+                <div class="col-md-4 col-sm-6 bottommargin">
                     <div class="feature-box topmargin" data-animate="fadeIn">
                         <div class="fbox-icon">
                             <a href="#"><i class="icon-line-heart"></i></a>
