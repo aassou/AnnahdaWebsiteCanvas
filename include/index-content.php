@@ -120,7 +120,7 @@
         </div>
         <div id="portfolio" class="portfolio-nomargin portfolio-notitle portfolio-full clearfix">
             <?php
-            foreach ( $projets as $projet ) {
+            for ($i=0; $i<4; $i++) {
                 $image = "";
                 if ( $imageManager->getImageNumberByIdProjet($projet->id()) >= 1 ) {
                     $image = $imageManager->getFirstImageByIdProjet($projet->id());
