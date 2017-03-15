@@ -109,11 +109,19 @@
                                 <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
                                 <h4 class="modal-title" id="exampleModalLabel">Nouvelle Image</h4>
                               </div>
-                              <form action="controller/ImageActionController.php" method="post">
+                              <form action="controller/ImageActionController.php" method="post" enctype="multipart/form-data">
                                 <div class="modal-body">
                                   <div class="form-group">
-                                    <label for="recipient-name" class="control-label">Image</label>
-                                    <?php echo $api->widget->getInputTag('qs-file'); ?>
+                                    <label for="image" class="control-label">Image</label>
+                                    <input type="file" id="image" name="image" class="m-wrap" />
+                                  </div>
+                                  <div class="form-group">
+                                    <label for="name" class="control-label">Nom</label>
+                                    <input type="text" id="name" name="name" class="m-wrap" />
+                                  </div>
+                                  <div class="form-group">
+                                    <label for="description" class="control-label">Description</label>
+                                    <textarea id="description" name="description" class="m-wrap"></textarea>
                                   </div>
                                 </div>
                                 <div class="modal-footer">

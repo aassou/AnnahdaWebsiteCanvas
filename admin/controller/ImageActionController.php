@@ -11,6 +11,7 @@
     }
     spl_autoload_register("classLoad"); 
     include('../../include/config.php');  
+    include('../lib/image-processing.php');
     //include('../lib/image-processing.php');
     //classes loading end
     session_start();
@@ -26,16 +27,17 @@
     $imageManager = new ImageManager($pdo);
 	//Action Add Processing Begin
     if($action == "add"){
-        if( !empty($_POST['qs-file']) ){
+        if(file_exists($_FILES['image']['tmp_name']) || is_uploaded_file($_FILES['image']['tmp_name'])) {
 			$name = htmlentities($_POST['name']);
-			$url = htmlentities($_POST['qs-file']);
+			//$url = htmlentities($_POST['qs-file']);
 			$description = htmlentities($_POST['description']);
 			$createdBy = $_SESSION['userAnnahdaSite']->login();
             $created = date('Y-m-d h:i:s');
+            $imageUrl = imageProcessing($_FILES['image'], '/images/projects/');
             //create object
             $image = new Image(array(
 				'name' => $name,
-				'url' => $url,
+				'url' => $imageUrl,
 				'description' => $description,
 				'idProjet' => $idProjet,
 				'created' => $created,
@@ -47,7 +49,7 @@
             $typeMessage = "success";
         }
         else{
-            $actionMessage = "<strong>Erreur Ajout Image</strong> : Vous devez remplir le champ 'name'.";
+            $actionMessage = "<strong>Erreur Ajout Image</strong> : Vous devez séléctionnez une image.";
             $typeMessage = "danger";
         }
     }
