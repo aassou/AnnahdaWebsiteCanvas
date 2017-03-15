@@ -112,16 +112,16 @@
                               <form action="controller/ImageActionController.php" method="post" enctype="multipart/form-data">
                                 <div class="modal-body">
                                   <div class="form-group">
-                                    <label for="image" class="control-label">Image</label>
                                     <input type="file" id="image" name="image" class="m-wrap" />
+                                    <label for="image" class="control-label">Image</label>
                                   </div>
                                   <div class="form-group">
-                                    <label for="name" class="control-label">Nom</label>
                                     <input type="text" id="name" name="name" class="m-wrap" />
+                                    <label for="name" class="control-label">Nom</label>
                                   </div>
                                   <div class="form-group">
-                                    <label for="description" class="control-label">Description</label>
                                     <textarea id="description" name="description" class="m-wrap"></textarea>
+                                    <label for="description" class="control-label">Description</label>
                                   </div>
                                 </div>
                                 <div class="modal-footer">
