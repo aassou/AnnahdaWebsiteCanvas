@@ -6,7 +6,7 @@
                     <div class="widget clearfix">
                         <!--img src="images/footer-widget-logo.png" alt="" class="footer-logo"-->
                         <p><strong>Groupe Annahda Lil Iaamar</strong> para el desarrollo inmobiliario en Nador.</p>
-                        <div style="background: url('images/world-map.png') no-repeat center center; background-size: 100%;">
+                        <div style="background: url('/images/world-map.png') no-repeat center center; background-size: 100%;">
                             <address>
                                 <strong>Dirección:</strong><br>
                                 Barrio Oulad Brahim No. B-1<br>

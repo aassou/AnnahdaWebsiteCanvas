@@ -7,7 +7,7 @@
                         <!--img src="images/footer-widget-logo.png" alt="" class="footer-logo"-->
                         <p><strong>Groupe Annahda Lil Iaamar</strong> voor de ontwikkeling van vastgoed in Nador.</p>
 
-                        <div style="background: url('images/world-map.png') no-repeat center center; background-size: 100%;">
+                        <div style="background: url('/images/world-map.png') no-repeat center center; background-size: 100%;">
                             <address>
                                 <strong>Adresse:</strong><br>
                                 Buurt Oulad Brahim No. B-1, <br>
