@@ -20,7 +20,7 @@
         <div class="section nobottommargin">
             <div class="container clear-bottommargin clearfix">
             <div class="col_one_third bottommargin-sm center">
-                <img data-animate="fadeInLeft" src="../images/logo-fullwidth.jpg" alt="Mission">
+                <img style="height:400px;" data-animate="fadeInLeft" src="/images/mission1.jpg" alt="Mission">
             </div>
             <div class="col_two_third bottommargin-sm col_last">
                 <div class="heading-block topmargin-sm">
