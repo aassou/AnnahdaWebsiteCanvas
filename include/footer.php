@@ -12,12 +12,14 @@
                         <div style="background: url('/images/world-map.png') no-repeat center center; background-size: 100%;">
                             <address>
                                 <strong>Adresse:</strong><br>
-                                Quartier Ouled Brahim N°B-1 en face <br>
+                                313, Quartier Ouled Brahim, Mezzanin N°B1 en face <br>
                                 Lycée Nador Jadid (Anaanaa), Nador.<br>
                             </address>
-                            <abbr title="Phone Number"><strong>Téléphone:</strong></abbr> (00212) 05 36 33 10 31<br>
-                            <abbr title="Fax"><strong>Fax:</strong></abbr> (00212) 05 36 33 10 32<br>
-                            <abbr title="Email Address"><strong>Email:</strong></abbr> groupe_annahda@gmail.com
+                            <abbr title="Phone Number"><strong>Téléphone:</strong></abbr> +212 (0) 5 36 33 10 31<br>
+                            <abbr title="Phone Number"><strong>Mobile:</strong></abbr> +212 (0) 6 61 55 11 35<br>
+                            <abbr title="Phone Number"><strong>Whatsapp:</strong></abbr> +212 (0) 6 29 39 21 34<br>
+                            <abbr title="Fax"><strong>Fax:</strong></abbr> +212 (0) 5 36 33 10 32<br>
+                            <abbr title="Email Address"><strong>Email:</strong></abbr> groupeannahda@gmail.com
                         </div>
                     </div>
                 </div>
@@ -93,7 +95,7 @@
                     </a>
                 </div-->
                 <div class="clear"></div>
-                <i class="icon-envelope2"></i> groupe_annahda@gmail.com <span class="middot">&middot;</span> <i class="icon-headphones"></i> Groupe_Annahda <span class="middot">&middot;</span> <i class="icon-skype2"></i> GroupeAnnahda Sur Skype
+                <i class="icon-envelope2"></i> groupeannahda@gmail.com <span class="middot">&middot;</span> <i class="icon-headphones"></i> Groupe_Annahda <span class="middot">&middot;</span> <i class="icon-skype2"></i> GroupeAnnahda Sur Skype
             </div>
         </div>
     </div><!-- #copyrights end -->
