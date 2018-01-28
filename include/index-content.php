@@ -10,41 +10,12 @@
                 </div>
                 <div class="col-lg-7">
                     <div style="position: relative; margin-bottom: -60px;" class="ohidden" data-height-lg="426" data-height-md="567" data-height-sm="470" data-height-xs="287" data-height-xxs="183">
-                        <img src="images/logo-fullwidth.jpg" style="position: absolute; top: 0; left: 0;" data-animate="fadeInUp" data-delay="100" alt="Chrome">
-                        <!--img src="images/services/main-fbrowser.png" style="position: absolute; top: 0; left: 0;" data-animate="fadeInUp" data-delay="100" alt="Chrome"-->
-                        <!--img src="images/services/main-fmobile.png" style="position: absolute; top: 0; left: 0;" data-animate="fadeInUp" data-delay="400" alt="iPad"-->
+                        <img src="images/hello.png" style="position: absolute; top: 0; left: 0;" data-animate="fadeInUp" data-delay="100" alt="Chrome">
                     </div>
                 </div>
             </div>
         </div>
-        <div class="section nobottommargin">
-            <div class="container clear-bottommargin clearfix">
-            <div class="col_one_third bottommargin-sm center">
-                <img style="height:400px;" data-animate="fadeInLeft" src="/images/mission1.jpg" alt="Mission">
-            </div>
-            <div class="col_two_third bottommargin-sm col_last">
-                <div class="heading-block topmargin-sm">
-                    <h3>Notre Mission</h3>
-                </div>
-                <p>
-                    GROUPE ANNAHDA LIL IAAMAR, suit dans sa politique immobilière, 
-                    une stratégie qui se consiste de la transparence, la qualité, 
-                    la confiance, la sincérité et la maitrise des actions. 
-                    Ce groupe est un fruit des efforts fournis, expériences et 
-                    formations dans le domaine durant une long période.
-                </p>
-                <p>
-                    Les projets du groupe se caractérise par l’immense de qualité 
-                    selon des normes architecturels agrées par l’Etat L’objectif 
-                    principal du groupe c’est d’appliquer la condition fondamentale 
-                    concernant le marketing, soit : rapport qualité/prix, ainsi qu’accompagner 
-                    le citoyen pour réaliser son rêve, d’être Propriétaire d’un bien immobilier 
-                    à court terme.
-                </p>
-                <!--a href="#" class="button button-border button-dark button-rounded button-large noleftmargin topmargin-sm">Learn more</a-->
-            </div>
-            </div>
-        </div>
+        <img src="/images/intro.png">
         <div class="container clearfix">
             <div class="row topmargin-lg bottommargin-sm">
                 <div class="heading-block center">
@@ -96,20 +67,20 @@
             </div>
             <div class="col-md-3 col-sm-6 dark center col-padding" style="background-color: #515875;">
                 <div>
-                    <div class="counter counter-lined"><span data-from="1" data-to="14" data-refresh-interval="50" data-speed="4000"></span></div>
+                    <div class="counter counter-lined"><span data-from="1" data-to="22" data-refresh-interval="50" data-speed="4000"></span></div>
                     <h3>Projets</h3>
                 </div>
             </div>
             <div class="col-md-3 col-sm-6 dark center col-padding" style="background-color: #6697B9;">
                 <div>
-                    <div class="counter counter-lined"><span data-from="1" data-to="275" data-refresh-interval="25" data-speed="3500"></span></div>
-                    <h3>Clients satisfaits</h3>
+                    <div class="counter counter-lined"><span data-from="1" data-to="600" data-refresh-interval="25" data-speed="3500"></span></div>
+                    <h3>Appartements et Locaux commerciaux</h3>
                 </div>
             </div>
             <div class="col-md-3 col-sm-6 dark center col-padding" style="background-color: #576F9E;">
                 <div>
-                    <div class="counter counter-lined"><span data-from="1" data-to="300" data-refresh-interval="100" data-speed="3000"></span></div>
-                    <h3>Appartements et Locaux commerciaux</h3>
+                    <div class="counter counter-lined"><span data-from="1" data-to="570" data-refresh-interval="100" data-speed="3000"></span></div>
+                    <h3>Clients +</h3>
                 </div>
             </div>
         </div>
@@ -156,7 +127,7 @@
                 Voire tous les projets du Groupe Annahda. <strong>Cliquez ici</strong> <i class="icon-caret-right" style="top:4px;"></i>
             </div>
         </a>
-        <div class="section parallax dark nobottommargin" style="background-image: url('images/holdinggroup2.jpg'); padding: 100px 0;" data-stellar-background-ratio="0.4">
+        <!--div class="section parallax dark nobottommargin" style="background-image: url('images/holdinggroup2.jpg'); padding: 100px 0;" data-stellar-background-ratio="0.4">
             <div class="heading-block center">
                 <h3>Société Iaaza de construction</h3>
             </div>
@@ -179,6 +150,6 @@
                     </div>
                 </div>
             </div>
-        </div>
+        </div-->
     </div>
 </section>

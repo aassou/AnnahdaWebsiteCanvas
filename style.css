@@ -820,6 +820,8 @@ html[xmlns] .slider-wrap {display: block;}
 	position: relative;
 	background-color: #FFF;
 	border-bottom: 1px solid #F5F5F5;
+	padding-bottom: 90px;
+	height: 90px;
 }
 
 #header .container { position: relative; }
@@ -909,12 +911,11 @@ body.stretched #header.full-header .container {
 
 #logo img {
 	display: block;
-	max-width: 100%;
 }
 
-#logo a.standard-logo { display: block; }
+#logo a.standard-logo { display: block; margin: 5px; }
 
-#logo a.retina-logo { display: none; }
+#logo a.retina-logo { display: none; margin: 5px; }
 
 
 /* ----------------------------------------------------------------
@@ -1011,7 +1012,7 @@ body.stretched #header.full-header .container {
 
 #primary-menu ul li a {
 	display: block;
-	height: 100px;
+	height: 50px;
 	line-height: 100px;
 	padding: 0 15px;
 	color: #444;
@@ -1831,13 +1832,13 @@ body:not(.device-sm):not(.device-xs):not(.device-xxs) #header.transparent-header
 #logo img,
 #primary-menu:not(.style-2),
 #primary-menu:not(.style-2) > ul {
-	height: 40px;
+	height: 80px;
 	/*-webkit-transition: height .4s ease, opacity .3s ease;
 	-o-transition: height .4s ease, opacity .3s ease;
 	transition: height .4s ease, opacity .3s ease;*/
 }
 
-#header, #primary-menu > ul > li > a { line-height: 40px; }
+#header, #primary-menu > ul > li > a { line-height: 100px; }
 
 #header.sticky-style-2 { height: 161px; }
 
@@ -1900,13 +1901,13 @@ body.top-search-open #side-panel-trigger { opacity: 0; }
 #header.sticky-header:not(.static-sticky):not(.sticky-style-2) #logo img,
 #header.sticky-header:not(.static-sticky) #primary-menu,
 #header.sticky-header:not(.static-sticky) #primary-menu > ul,
-#header.sticky-header:not(.static-sticky) #primary-menu > ul > li > a { height: 40px; }
+#header.sticky-header:not(.static-sticky) #primary-menu > ul > li > a { height: 80px; }
 
 #header.sticky-header:not(.static-sticky).sticky-style-2 { height: 161px; }
 
-#header.sticky-header:not(.static-sticky) #primary-menu > ul > li > a { line-height: 40px; }
+#header.sticky-header:not(.static-sticky) #primary-menu > ul > li > a { line-height: 100px; }
 
-#header.sticky-header:not(.static-sticky) #primary-menu > ul > li > a i { line-height: 40px; }
+#header.sticky-header:not(.static-sticky) #primary-menu > ul > li > a i { line-height: 100px; }
 
 #header.sticky-header:not(.static-sticky) #primary-menu > ul > li > ul,
 #header.sticky-header:not(.static-sticky) #primary-menu > ul > li > .mega-menu-content,
@@ -2642,7 +2643,6 @@ body.side-push-panel.side-panel-open:not(.device-xxs):not(.device-xs):not(.devic
 	width:100%;
 	height:80%;
 	margin: 0;
-	background: url('images/pattern2.png') repeat;
 }
 
 .swiper_wrapper .swiper-slide {
@@ -4573,8 +4573,8 @@ body.device-touch.device-xxs .portfolio-notitle .portfolio-overlay { display: no
 .portfolio-single-image-full .swiper-slide { overflow: hidden; }
 
 .portfolio-single-image-full .swiper-slide img {
-	width: 100%;
-	height: auto;
+	width:100%;
+	height:auto
 }
 
 

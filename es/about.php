@@ -56,16 +56,16 @@
                             <h3> de experiencia</h3>
                         </div>
                         <div class="col_one_fourth nobottommargin center" data-animate="bounceIn">
-                            <div class="counter counter-lined"><span data-from="1" data-to="14" data-refresh-interval="50" data-speed="4000"></span></div>
+                            <div class="counter counter-lined"><span data-from="1" data-to="22" data-refresh-interval="50" data-speed="4000"></span></div>
                             <h3>Proyectos</h3>
                         </div>
                         <div class="col_one_fourth nobottommargin center" data-animate="bounceIn" data-delay="400">
-                            <div class="counter counter-lined"><span data-from="1" data-to="275" data-refresh-interval="100" data-speed="3000"></span></div>
+                            <div class="counter counter-lined"><span data-from="1" data-to="600" data-refresh-interval="100" data-speed="3000"></span></div>
                             <h3>Apartamentos y locales comerciales</h3>
                         </div>
                         <div class="col_one_fourth nobottommargin center" data-animate="bounceIn" data-delay="200">
-                            <div class="counter counter-lined"><span data-from="1" data-to="300" data-refresh-interval="25" data-speed="3500"></span></div>
-                            <h3> Clientes Satisfechos</h3>
+                            <div class="counter counter-lined"><span data-from="1" data-to="570" data-refresh-interval="25" data-speed="3500"></span></div>
+                            <h3> Clientes +</h3>
                         </div>
                     </div>
                 </div>
@@ -73,8 +73,8 @@
                     <div class="col-sm-5 col-padding" style="background: url('http://groupannahda.com/wp-content/uploads/2015/04/CHOP-31551fd6b5695cc.jpg') center center no-repeat; background-size: cover;"></div>
                     <div class="col-sm-7 col-padding">
                             <div class="heading-block">
-                                <span class="before-heading color">Director y Fundador</span>
-                                <h3>Rabie El Mahi</h3>
+                                <span class="before-heading color">Palabra de la gerencia</span>
+                                <h3>Mr El Mahi Rabie, Mr El Mahi Abdelghani et Mr Chahbouni Hamid</h3>
                             </div>
                             <div class="row clearfix">
                                 <div class="col-md-6">

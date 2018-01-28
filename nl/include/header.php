@@ -9,17 +9,21 @@
             </div>
             <nav id="primary-menu" class="dark">
                 <ul>
-                    <li <?= ($currentPage == "index.php") ? 'class="current"' : '' ?> >
-                        <a href="/home" title="Français"><img src="/images/icons/flags/french.png" /></a>
-                    </li>
-                    <li <?= ($currentPage == "index.php") ? 'class="current"' : '' ?> >
-                        <a href="/de/home" title="Deutsch"><img src="/images/icons/flags/german.png" /></a>
-                    </li>
-                    <li <?= ($currentPage == "index.php") ? 'class="current"' : '' ?> >
-                        <a href="/nl/home" title="Nederlands"><img src="/images/icons/flags/netherlands.png" /></a>
-                    </li>
-                    <li <?= ($currentPage == "index.php") ? 'class="current"' : '' ?> >
-                        <a href="/es/home" title="Español"><img src="/images/icons/flags/spain.png" /></a>
+                    <li><a href=""><div><img src="../images/icon-translation.png"></div></a>
+                        <ul>
+                            <li <?= ($currentPage == "index.php") ? 'class="current"' : '' ?> >
+                                <a href="/home" title="Français"><img src="/images/icons/flags/french.png" /> Français</a>
+                            </li>
+                            <li <?= ($currentPage == "index.php") ? 'class="current"' : '' ?> >
+                                <a href="/de/home" title="Deutsch"><img src="/images/icons/flags/german.png" /> Deutsch</a>
+                            </li>
+                            <li <?= ($currentPage == "index.php") ? 'class="current"' : '' ?> >
+                                <a href="/nl/home" title="Nederlands"><img src="/images/icons/flags/netherlands.png" /> Nederlands</a>
+                            </li>
+                            <li <?= ($currentPage == "index.php") ? 'class="current"' : '' ?> >
+                                <a href="/es/home" title="Español"><img src="/images/icons/flags/spain.png" /> Español</a>
+                            </li>    
+                        </ul>
                     </li>
                     <li <?= ($currentPage == "index.php") ? 'class="current"' : '' ?> >
                         <a href="/nl/home"><div>Home</div></a>

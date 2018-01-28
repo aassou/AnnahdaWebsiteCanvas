@@ -50,21 +50,21 @@
                 </div>
                 <div class="section nomargin">
                     <div class="container clearfix">
-                        <div class="col_one_fourth nobottommargin center" data-animate="bounceIn">
-                            <div class="counter counter-lined"><span data-from="1" data-to="13" data-refresh-interval="50" data-speed="4000"></span></div>
-                            <h3>Projecten</h3>
-                        </div>
-                        <div class="col_one_fourth nobottommargin center" data-animate="bounceIn" data-delay="200">
-                            <div class="counter counter-lined"><span data-from="1" data-to="150" data-refresh-interval="25" data-speed="3500"></span></div>
-                            <h3>Tevreden klanten</h3>
-                        </div>
-                        <div class="col_one_fourth nobottommargin center" data-animate="bounceIn" data-delay="400">
-                            <div class="counter counter-lined"><span data-from="1" data-to="260" data-refresh-interval="100" data-speed="3000"></span></div>
-                            <h3>Appartementen en commerciële ruimte</h3>
-                        </div>
                         <div class="col_one_fourth nobottommargin center col_last" data-animate="bounceIn" data-delay="600">
                             <div class="counter counter-lined"><span data-from="1" data-to="10" data-refresh-interval="5" data-speed="4500"></span> jaar</div>
                             <h3> ervaring</h3>
+                        </div>
+                        <div class="col_one_fourth nobottommargin center" data-animate="bounceIn">
+                            <div class="counter counter-lined"><span data-from="1" data-to="22" data-refresh-interval="50" data-speed="4000"></span></div>
+                            <h3>Projecten</h3>
+                        </div>
+                        <div class="col_one_fourth nobottommargin center" data-animate="bounceIn" data-delay="400">
+                            <div class="counter counter-lined"><span data-from="1" data-to="600" data-refresh-interval="100" data-speed="3000"></span></div>
+                            <h3>Appartementen en commerciële ruimte</h3>
+                        </div>
+                        <div class="col_one_fourth nobottommargin center" data-animate="bounceIn" data-delay="200">
+                            <div class="counter counter-lined"><span data-from="1" data-to="570" data-refresh-interval="25" data-speed="3500"></span></div>
+                            <h3>Klanten +</h3>
                         </div>
                     </div>
                 </div>
@@ -73,8 +73,8 @@
                     <div class="col-sm-7 col-padding">
                         <div>
                             <div class="heading-block">
-                                <span class="before-heading color">Directeur en oprichter</span>
-                                <h3>Rabie El Mahi</h3>
+                                <span class="before-heading color">Woord van het management</span>
+                                <h3>Mr El Mahi Rabie, Mr El Mahi Abdelghani et Mr Chahbouni Hamid</h3>
                             </div>
                             <div class="row clearfix">
                                 <div class="col-md-6">

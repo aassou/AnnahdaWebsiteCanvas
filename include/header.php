@@ -9,24 +9,28 @@
             <!-- Logo
             ============================================= -->
             <div id="logo">
-                <a href="/home" class="standard-logo" data-dark-logo="/images/logo-square.png"><img src="/images/logo-square.png" alt="Groupe Annahda"></a>
-                <a href="/home" class="retina-logo" data-dark-logo="/images/logo-square.png"><img src="/images/logo-square.png" alt="Groupe Annahda"></a>
+                <a href="/home" class="standard-logo" data-dark-logo="/images/logo-square.png"><img src="/images/logo-little.png" alt="Groupe Annahda"></a>
+                <a href="/home" class="retina-logo" data-dark-logo="/images/logo-square.png"><img src="/images/logo-little.png" alt="Groupe Annahda"></a>
             </div><!-- #logo end -->
             <!-- Primary Navigation
             ============================================= -->
             <nav id="primary-menu" class="dark">
                 <ul>
-                    <li <?= ($currentPage == "index.php") ? 'class="current"' : '' ?> >
-                        <a href="/home" title="Français"><img src="/images/icons/flags/french.png" /></a>
-                    </li>
-                    <li <?= ($currentPage == "index.php") ? 'class="current"' : '' ?> >
-                        <a href="/de/" title="Deutsch"><img src="/images/icons/flags/german.png" /></a>
-                    </li>
-                    <li <?= ($currentPage == "index.php") ? 'class="current"' : '' ?> >
-                        <a href="/nl/" title="Nederlands"><img src="/images/icons/flags/netherlands.png" /></a>
-                    </li>
-                    <li <?= ($currentPage == "index.php") ? 'class="current"' : '' ?> >
-                        <a href="/es/" title="Español"><img src="/images/icons/flags/spain.png" /></a>
+                    <li><a href=""><div><img src="/images/icon-translation.png"></div></a>
+                        <ul>
+                            <li <?= ($currentPage == "index.php") ? 'class="current"' : '' ?> >
+                                <a href="/home" title="Français"><img src="/images/icons/flags/french.png" /> Français</a>
+                            </li>
+                            <li <?= ($currentPage == "index.php") ? 'class="current"' : '' ?> >
+                                <a href="/de/" title="Deutsch"><img src="/images/icons/flags/german.png" /> Deutsch</a>
+                            </li>
+                            <li <?= ($currentPage == "index.php") ? 'class="current"' : '' ?> >
+                                <a href="/nl/" title="Nederlands"><img src="/images/icons/flags/netherlands.png" /> Nederlands</a>
+                            </li>
+                            <li <?= ($currentPage == "index.php") ? 'class="current"' : '' ?> >
+                                <a href="/es/" title="Español"><img src="/images/icons/flags/spain.png" /> Español</a>
+                            </li>    
+                        </ul>
                     </li>
                     <li <?= ($currentPage == "index.php") ? 'class="current"' : '' ?> >
                         <a href="/home"><div>Accueil</div></a>

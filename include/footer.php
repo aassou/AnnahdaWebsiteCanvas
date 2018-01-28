@@ -15,11 +15,11 @@
                                 313, Quartier Ouled Brahim, Mezzanin N°B1 en face <br>
                                 Lycée Nador Jadid (Anaanaa), Nador.<br>
                             </address>
-                            <abbr title="Phone Number"><strong>Téléphone:</strong></abbr> +212 (0) 5 36 33 10 31<br>
-                            <abbr title="Phone Number"><strong>Mobile:</strong></abbr> +212 (0) 6 61 55 11 35<br>
-                            <abbr title="Phone Number"><strong>Whatsapp:</strong></abbr> +212 (0) 6 29 39 21 34<br>
+                            <abbr title="Téléphone"><strong>Téléphone:</strong></abbr> +212 (0) 5 36 33 10 31<br>
+                            <abbr title="Mobile"><strong>Mobile:</strong></abbr> +212 (0) 6 61 55 11 35<br>
+                            <abbr title="Whatsapp"><strong>Whatsapp:</strong></abbr> +212 (0) 6 29 39 21 34<br>
                             <abbr title="Fax"><strong>Fax:</strong></abbr> +212 (0) 5 36 33 10 32<br>
-                            <abbr title="Email Address"><strong>Email:</strong></abbr> groupeannahda@gmail.com
+                            <abbr title="Email"><strong>Email:</strong></abbr> groupeannahda@gmail.com
                         </div>
                     </div>
                 </div>
@@ -81,7 +81,7 @@
         <div class="container clearfix">
             <div class="col_half">
                 Tous droits réservés pour la société Groupe Annahda Lil Iaamar &copy; 2010-<?= date('Y') ?>.<br>
-                <div class="copyright-links"><a href="http://goo.gl/eLJ2Bg">Droits d'utilisation</a> / <a href="http://goo.gl/eLJ2Bg">Politique de confidentialité</a></div>
+                <div class="copyright-links"><a href="#">Droits d'utilisation</a> / <a href="#">Politique de confidentialité</a></div>
             </div>
             <div class="col_half col_last tright">
                 <!--div class="fright clearfix">

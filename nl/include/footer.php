@@ -13,9 +13,11 @@
                                 Buurt Oulad Brahim No. B-1, <br>
                                 Tegenover School Nador Jadid (Anaanaa), Nador.<br>
                             </address>
-                            <abbr title="Phone Number"><strong>Telefoon:</strong></abbr> (00212) 05 36 33 10 31<br>
-                            <abbr title="Fax"><strong>Fax:</strong></abbr> (00212) 05 36 33 10 32<br>
-                            <abbr title="Email Address"><strong>Email:</strong></abbr> groupe_annahda@gmail.com
+                            <abbr title="Telefoon"><strong>Telefoon:</strong></abbr> +212 (0) 5 36 33 10 31<br>
+                            <abbr title="Mobile"><strong>Mobile:</strong></abbr> +212 (0) 6 61 55 11 35<br>
+                            <abbr title="Whatsapp"><strong>Whatsapp:</strong></abbr> +212 (0) 6 29 39 21 34<br>
+                            <abbr title="Fax"><strong>Fax:</strong></abbr> +212 (0) 5 36 33 10 32<br>
+                            <abbr title="Email"><strong>Email:</strong></abbr> groupeannahda@gmail.com
                         </div>
                     </div>
                 </div>
@@ -75,7 +77,7 @@
         <div class="container clearfix">
             <div class="col_half">
                 Alle rechten voorbehouden voor de onderneming Groupe Ennahda Lil Isamar &copy; 2016.<br>
-                <div class="copyright-links"><a href="http://goo.gl/eLJ2Bg">Licenties</a> / <a href="http://goo.gl/eLJ2Bg">Privacy</a></div>
+                <div class="copyright-links"><a href="#">Licenties</a> / <a href="#">Privacy</a></div>
             </div>
             <div class="col_half col_last tright">
                 <div class="fright clearfix">
@@ -89,7 +91,7 @@
                     </a>
                 </div>
                 <div class="clear"></div>
-                <i class="icon-envelope2"></i> groupe_annahda@gmail.com <span class="middot">&middot;</span> <i class="icon-headphones"></i> Groupe_Annahda <span class="middot">&middot;</span> <i class="icon-skype2"></i> GroupeAnnahda ons Skype
+                <i class="icon-envelope2"></i> groupeannahda@gmail.com <span class="middot">&middot;</span> <i class="icon-headphones"></i> Groupe_Annahda <span class="middot">&middot;</span> <i class="icon-skype2"></i> GroupeAnnahda ons Skype
             </div>
         </div>
     </div>

@@ -4,7 +4,8 @@
             <?php
             foreach( $sliderImages as $image ) {
             ?>
-            <div class="swiper-slide dark" style="background-image: url('<?= $image->url() ?>');">
+            <div class="swiper-slide dark">
+                <img src="<?= $image->url() ?>">
                 <div class="container clearfix">
                     <div class="slider-caption slider-caption-center">
                         <h2 data-caption-animate="fadeInUp"><?= $image->name() ?></h2>

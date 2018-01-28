@@ -54,16 +54,16 @@
                             <h3> Erfahrung</h3>
                         </div>
                         <div class="col_one_fourth nobottommargin center" data-animate="bounceIn">
-                            <div class="counter counter-lined"><span data-from="1" data-to="14" data-refresh-interval="50" data-speed="4000"></span></div>
+                            <div class="counter counter-lined"><span data-from="1" data-to="22" data-refresh-interval="50" data-speed="4000"></span></div>
                             <h3>Projekte</h3>
                         </div>
                         <div class="col_one_fourth nobottommargin center" data-animate="bounceIn" data-delay="400">
-                            <div class="counter counter-lined"><span data-from="1" data-to="275" data-refresh-interval="100" data-speed="3000"></span></div>
+                            <div class="counter counter-lined"><span data-from="1" data-to="600" data-refresh-interval="100" data-speed="3000"></span></div>
                             <h3>Wohnungen und Gewerbeflächen</h3>
                         </div>
                         <div class="col_one_fourth nobottommargin center" data-animate="bounceIn" data-delay="200">
-                            <div class="counter counter-lined"><span data-from="1" data-to="300" data-refresh-interval="25" data-speed="3500"></span></div>
-                            <h3>Zufriedene Kunden</h3>
+                            <div class="counter counter-lined"><span data-from="1" data-to="570" data-refresh-interval="25" data-speed="3500"></span></div>
+                            <h3>Kunden +</h3>
                         </div>
                     </div>
                 </div>
@@ -72,8 +72,8 @@
                     <div class="col-sm-7 col-padding">
                         <div>
                             <div class="heading-block">
-                                <span class="before-heading color">Direktor und Gründer</span>
-                                <h3>Rabie El Mahi</h3>
+                                <span class="before-heading color">Wort vom Management</span>
+                                <h3>Mr El Mahi Rabie, Mr El Mahi Abdelghani et Mr Chahbouni Hamid</h3>
                             </div>
                             <div class="row clearfix">
                                 <div class="col-md-6">

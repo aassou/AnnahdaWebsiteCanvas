@@ -87,20 +87,20 @@
             </div>
             <div class="col-md-3 col-sm-6 dark center col-padding" style="background-color: #515875;">
                 <div>
-                    <div class="counter counter-lined"><span data-from="1" data-to="14" data-refresh-interval="50" data-speed="4000"></span></div>
+                    <div class="counter counter-lined"><span data-from="1" data-to="22" data-refresh-interval="50" data-speed="4000"></span></div>
                     <h3>Proyectos</h3>
-                </div>
-            </div>
-            <div class="col-md-3 col-sm-6 dark center col-padding" style="background-color: #6697B9;">
-                <div>
-                    <div class="counter counter-lined"><span data-from="1" data-to="275" data-refresh-interval="25" data-speed="3500"></span></div>
-                    <h3>Clientes satisfechos</h3>
                 </div>
             </div>
             <div class="col-md-3 col-sm-6 dark center col-padding" style="background-color: #576F9E;">
                 <div>
-                    <div class="counter counter-lined"><span data-from="1" data-to="300" data-refresh-interval="100" data-speed="3000"></span></div>
+                    <div class="counter counter-lined"><span data-from="1" data-to="600" data-refresh-interval="100" data-speed="3000"></span></div>
                     <h3>Apartamentos y locales comerciales</h3>
+                </div>
+            </div>
+            <div class="col-md-3 col-sm-6 dark center col-padding" style="background-color: #6697B9;">
+                <div>
+                    <div class="counter counter-lined"><span data-from="1" data-to="570" data-refresh-interval="25" data-speed="3500"></span></div>
+                    <h3>Clientes +</h3>
                 </div>
             </div>
         </div>
